@@ -1,1 +1,1 @@
-This is the README.md file for the DCC++EX Doc Repository
+This repository contains documentation, Policies and Procedures, specifications, and similar types of documents related to the operation of DCC++EX Project and the installation and operation of DCC++EX Train Control.
