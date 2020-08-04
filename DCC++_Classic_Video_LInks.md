@@ -14,7 +14,7 @@
  
 
  
-[Part 3 : Linnk Here](https://www.youtube.com/watch?v=yUIKV601th0&t=5s)
+[Part 3 : Link Here](https://www.youtube.com/watch?v=yUIKV601th0&t=5s)
  
 >A demo providing a detailed overview of the DCC++ [Classic]interface. Topics covered include pop-up windows for programming stationary accessory decoders and for >reading and writing CVs and cab addresses on mobile decoders using both the main operations track as well as a dedicated programming track. 
  
