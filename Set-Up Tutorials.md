@@ -1,4 +1,4 @@
-This is a selection of linnks to You Tube on how to get set up with Arduino Boards
+This is a selection of links to You Tube on how to get set up with Arduino Boards
 
 [Link to Gregg Bermans website](https://sites.google.com/site/dccppsite/)
 
