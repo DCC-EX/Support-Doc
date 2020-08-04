@@ -6,4 +6,4 @@ Greg Berman set the DCC++ ball rolling in 2015. These links will take you to his
 
 [Link 2 : Greg's Trainyard website here.](https://gregstrainyard.com)
 
-[Link 3 : PDF here.](https://gregstrainyard.com/wp-content/uploads/2017/05/dcc_pp.pdf)
+[Link 3 : Presentation PDF here.](https://gregstrainyard.com/wp-content/uploads/2017/05/dcc_pp.pdf)
