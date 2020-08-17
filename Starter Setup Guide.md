@@ -16,7 +16,19 @@ In order to achieve that, DCC++ EX will provide the model railroad community wit
 
 For the moment we are focussing this document on modellers who are new to DCC++ and just want to operate their layouts safely. More experienced modellers will findn some guidance at the end of this document.
 
-_Headings for RB [and others] to fill in_
+This guide will help you through the initial stages of installing and starting to use the new DCC++ EX model railway control system. 
+
+It is aimed at someone who is not technically savvy. We will cover the following areas:-
+
+* What equipment you will need to have or buy
+* What cables you will need to have or buy
+* How to connect it all together
+* What power unit you will need and how to connect that
+* Where to find the software for the Command Station
+* How to instal the software
+* How to start running your layout
+
+_Other headings for RB [and others] to fill in_
 
 **Hardware**
 
