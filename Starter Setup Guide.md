@@ -46,63 +46,52 @@ FIrstly there are the componenents. You either need to have or buy
         
 * **A USB A - B cable**
 
-* **The DCC++ EX Software** The DCC++ EX sofware (called a "sketch") loaded onto the your command station
+* I have an image - but don't know how to get it on here
+
+* **The DCC++ EX Software** The DCC++ EX sofware (called a "sketch") is loaded onto the your Arduino command station
 
 
 
-Software
+**Connecting it all together**
 
-Command Station is available
+[Here is a diagram of a simple set-up](https://docs.google.com/presentation/d/1-QqqR-oO8w8AdobiK7A_sCFi9oz1dTh63g8KO6KlMw4/edit#slide=id.p)
 
+Do  not connect any of the boards to your computer just yet.
 
-Connecting it all together
+**Firmware**
 
-[Here is a diagram of a simple set-up](https://docs.google.com/presentation/d/1-QqqR-oO8w8AdobiK7A_sCFi9oz1dTh63g8KO6KlMw4/edit)
+For the moment it is recommended that the required code is downloaded via the Arduino IDE only. 
 
+A simpler installataion process will be availabel on our website in due course
 
-Testing
+For now then,
 
-Quick test
+* Make sure you download and install the Arduino IDE if you don't already have it.   
+      ***NOTE: This is a 192Mb download*** [Click here for the link](https://www.arduino.cc/en/Guide)
+      
+* Download the Arduino Timers library file [Click here for the link](https://github.com/davidcutting42/ArduinoTimers/archive/master.zip)
 
+* Download the DCC-EX library file [CLick here for the link](https://github.com/DCC-EX/CommandStation/archive/master.zip)
 
-Troubleshooting
+* Download the CommandStation Sketch [Click here for the link](https://github.com/DCC-EX/CommandStation-DCC/archive/master.zip)
 
-?
+Unzip the two library files (ArduinoTimers-master.zip and CommandStation-Master.zip) one at a time to your desktop or downloads folder. You should then have these two folders after unzipping that look like this
+   * ArduinoTimers-Master
+   * CommandStation-Master
+   
+Rename these two folders to remove the “-master”. In other words the folders should now look like this
+   * ArduinoTimers
+   * CommandStation
+   
+Select both the above mentioned folders and move them to your Arduino libraries folder, usually: \Documents\Arduino\libraries\
 
-FAQs
-
-?
-
-Resources
-
-?
-Common Documentation Elements
-
-?
-
-Conductors and Tinkerers
-
-1. Make sure you download and install the Arduino IDE if you don't already have it. 
-NOTE: This is a 192Mb download.
-https://www.arduino.cc/en/Guide
-2. Download the "Arduino Timers" library here:
-https://github.com/davidcutting42/ArduinoTimers/archive/master.zip
-3. Download the DCC-EX library file here:
-https://github.com/DCC-EX/CommandStation/archive/master.zip
-4. Download the CommandStation Sketch here:
-https://github.com/DCC-EX/CommandStation-DCC/archive/master.zip
-5. Unzip the two library files (ArduinoTimers-master.zip and CommandStation-Master.zip) one at a time to your desktop or downloads folder. You should then have these two folders after unzipping:
-ArduinoTimers-Master
-CommandStation-Master
-6. Rename these two folders to remove the “-master”. In other words the folders should now look like this:
-ArduinoTimers
-CommandStation
-7. Select both the above mentioned folders and move them to your Arduino libraries folder, usually:
-\Documents\Arduino\libraries\
 You will see other folders there which are other libraries for the Arduino. Your new library folders will live happily next to the others.
-8. Unzip the CommandStation-DCC.zip file to your download or desktop folder and then move it to your Arduino projects folder, which should be:
+
+Unzip the CommandStation-DCC.zip file to your download or desktop folder and then move it to your Arduino projects folder, which should be:
 /documents/Arduino
+
 You may notice other project folders here, and should see the libraries folder where we just copied your libraries to.
+
 Rename this folder like you did with the library folders to remove the “-master” so that the folder name is simply, “CommandStation-DCC”.
 9. Open the Arduino IDE program from the operating system menu on your computer. Then click on “File -> Open” and navigate to your projects folder (/documents/Arduino) and find the CommandStation-DCC folder. Click on that folder to open it and find the main project file. All Arduino main files end in .ino (as in Ardu-INO) and should have the Arduino logo on them to advertise their association with the Arduino IDE. Click on “CommandStation-DCC” to open the project in the IDE>
 The project will open either in a new window or the same window depending on your settings. If there are two windows, you can close the first window if you like because we won’t need it anymore. You will see tabs for the 3 files used by CommandStation-EX running across the top of the Arduino IDE.
@@ -139,3 +128,22 @@ Troubleshooting:
 The Com port under “Tools -> Port” is grayed out.
 You don’t see anything from the serial monitor when you open it
 
+Testing
+
+Quick test
+
+
+Troubleshooting
+
+?
+
+FAQs
+
+?
+
+Resources
+
+?
+Common Documentation Elements
+
+?
