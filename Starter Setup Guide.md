@@ -54,7 +54,8 @@ FIrstly there are the componenents. You either need to have or buy
     * To download the software that runs the Command Station
     * To operate the layout either
         * By using the JMRI control application
-        * To utilise the Arduino Serial Monitor
+        * -or- to utilise the Arduino Serial Monitor
+        * -or- to use the Chrome based web browser throttle
         
 * **A USB A - B cable**
 
