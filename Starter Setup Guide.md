@@ -82,6 +82,11 @@ For now then,
 * Make sure you download and install the Arduino IDE if you don't already have it.   
       ***NOTE: This is a 192Mb download*** [Click here for the link](https://www.arduino.cc/en/Guide)
       
+Click Software > Online Tools
+
+![image](https://user-images.githubusercontent.com/61120323/90761638-9a243200-e2db-11ea-81c0-a34cdcf76ebe.png)
+
+      
 * Download the Arduino Timers library file [Click here for the link](https://github.com/davidcutting42/ArduinoTimers/archive/master.zip)
 
 * Download the DCC-EX library file [CLick here for the link](https://github.com/DCC-EX/CommandStation/archive/master.zip)
