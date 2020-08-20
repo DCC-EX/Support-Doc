@@ -6,7 +6,7 @@ DCC-EX picks up where the original DCC++ left off. By addressing some previous i
 
 In addition, we have  continued development with an all new version called DCC++ EX [for **EX**tended] that builds on the DCC++ Classic version and now includes many enhancements and upgrades. We intend to organize this all in one place so that development can continue and the platform can reflect new hardware and technology as it comes within focus.
 
-The Classic version can be found on our Github portal DCC++ EX and is no longer supported. The EX version will soon be available on our website www. Dcc-ex.com where you will find a support link.
+The Classic version can be found on our Github portal DCC++ EX and is no longer supported. The EX version will soon be available on our [website](www.Dcc-ex.com) where you will find a support link.
 
 **Our Mission**
 
