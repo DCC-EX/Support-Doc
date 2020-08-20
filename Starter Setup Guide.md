@@ -8,7 +8,7 @@ In addition, we have  continued development with an all new version called DCC++
 
 The Classic version can be found on our Github portal DCC++ EX and is no longer supported. The EX version will soon be available on our [website](https://dcc-ex.com/) where you will find a support link.
 
-[Test video for finding website - **this will be removed**](<!-- <iframe width="560" height="315" src=<-- "https://www.youtube.com/embed/EcBGZpjtgFE" <--frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe<--)
+[Test video for finding website - **this will be removed**](<!-- <iframe width="560" height="315" src=<-- "https://www.youtube.com/embed/EcBGZpjtgFE" --> <!--frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe -->)
 
 **Our Mission**
 
