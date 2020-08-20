@@ -28,13 +28,11 @@ It is aimed at someone who is not technically savvy. and will cover the followin
 * How to instal the software
 * How to start running your layout
 
-_Other headings for RB [and others] to fill in_
-
 **Hardware**
 
 So, what do you need in order to set up a DCC++ EX Command and Control system?
 
-FIrstly there are the componenents. You either need to have or buy
+FIrstly there are the componenents. You either need to already have access to or buy
 
 * **Command Station** This consists of two parts
 
@@ -71,31 +69,35 @@ FIrstly there are the componenents. You either need to have or buy
 
 Here is a diagram of how to connect these components together. **Do  not connect any of the boards to your computer just yet**.
 
+![PDF Board Set Up](https://user-images.githubusercontent.com/61120323/90765940-aeb7f880-e2e2-11ea-8ee7-1692113cd876.png)
 
 
 **Firmware**
 
 For the moment it is recommended that the required code is downloaded via the Arduino IDE only. 
 
-A simpler installataion process will be availabel on our website in due course
+A simpler installation process will be available on our website in due course
 
 For now then,
 
 * Make sure you download and install the Arduino IDE if you don't already have it.   
       ***NOTE: This is a 192Mb download*** [Click here for the link](https://www.arduino.cc/en/Guide)
       
-Click Software > Online Tools
+When you are on the home screen go to the top of the screen and click **Software** then **Online Tools**
 
 ![image](https://user-images.githubusercontent.com/61120323/90761638-9a243200-e2db-11ea-81c0-a34cdcf76ebe.png)
 
-Then click this button to open the editor
+Then click this button to open the web based editor
 
 ![web editor](https://user-images.githubusercontent.com/61120323/90764548-5849ba80-e2e0-11ea-9c3e-805df1b2ad20.png)
 
+Now get these two files by clicking the links
 
 * Download the Arduino Timers library file [Click here for the link](https://github.com/davidcutting42/ArduinoTimers/archive/master.zip)
 
 * Download the DCC-EX library file [Click here for the link](https://github.com/DCC-EX/CommandStation/archive/master.zip)
+
+And, finally,
 
 * Download the CommandStation Sketch [Click here for the link](https://github.com/DCC-EX/CommandStation-DCC/archive/master.zip)
 
