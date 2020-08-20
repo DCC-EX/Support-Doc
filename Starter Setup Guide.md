@@ -4,7 +4,7 @@ Welcome to DCC++ EX, an open-source hardware and software platform for the opera
 
 DCC-EX picks up where the original DCC++ left off. By addressing some previous issues, we have released a re-named version of this as DCC++ Classic giving the model railroader everything they enjoyed in the original version - in a stable release.
 
-In addition, we have  continued development with an all new version called DCC++ EX [for EXtended] that builds on the DCC++ Classic version and now includes many enhancements and upgrades. We intend to organize this all in one place so that development can continue and the platform can reflect new hardware and technology as it comes within focus.
+In addition, we have  continued development with an all new version called DCC++ EX [for **EX**tended] that builds on the DCC++ Classic version and now includes many enhancements and upgrades. We intend to organize this all in one place so that development can continue and the platform can reflect new hardware and technology as it comes within focus.
 
 The Classic version can be found on our Github portal DCC++ EX and is no longer supported. The EX version will soon be available on our website www. Dcc-ex.com where you will find a support link.
 
@@ -18,7 +18,7 @@ For the moment we are focussing this document on modellers who are new to DCC++ 
 
 This guide will help you through the initial stages of installing and starting to use the new DCC++ EX model railway control system. 
 
-It is aimed at someone who is not technically savvy. We will cover the following areas:-
+It is aimed at someone who is not technically savvy. and will cover the following areas:-
 
 * What equipment you will need to have or buy
 * What cables you will need to have or buy
@@ -55,7 +55,7 @@ FIrstly there are the componenents. You either need to have or buy
     * To operate the layout either
         * By using the JMRI control application
         * -or- to utilise the Arduino Serial Monitor
-        * -or- to use the Chrome based web browser throttle
+        
         
 * **A USB A - B cable**
 
@@ -63,7 +63,6 @@ They look like this.
 
 ![image](https://user-images.githubusercontent.com/61120323/90763568-d3aa6c80-e2de-11ea-89f3-8f7f2ea15cb8.png)
 
-* I have an image - but don't know how to get it on here
 
 * **The DCC++ EX Software** The DCC++ EX sofware (called a "sketch") is loaded onto the your Arduino command station
 
@@ -90,7 +89,7 @@ Click Software > Online Tools
 
 ![image](https://user-images.githubusercontent.com/61120323/90761638-9a243200-e2db-11ea-81c0-a34cdcf76ebe.png)
 
-      
+
 * Download the Arduino Timers library file [Click here for the link](https://github.com/davidcutting42/ArduinoTimers/archive/master.zip)
 
 * Download the DCC-EX library file [CLick here for the link](https://github.com/DCC-EX/CommandStation/archive/master.zip)
