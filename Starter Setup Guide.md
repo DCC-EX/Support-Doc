@@ -57,9 +57,7 @@ FIrstly there are the componenents. You either need to have or buy
         * -or- to utilise the Arduino Serial Monitor
         
         
-* **A USB A - B cable**
-
-They look like this.
+* **A USB A - B cable** They look like this.
 
 ![image](https://user-images.githubusercontent.com/61120323/90763568-d3aa6c80-e2de-11ea-89f3-8f7f2ea15cb8.png)
 
