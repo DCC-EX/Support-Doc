@@ -67,7 +67,6 @@ They look like this.
 * **The DCC++ EX Software** The DCC++ EX sofware (called a "sketch") is loaded onto the your Arduino command station
 
 
-
 **Connecting it all together**
 
 [Here is a diagram of a simple set-up](https://docs.google.com/presentation/d/1-QqqR-oO8w8AdobiK7A_sCFi9oz1dTh63g8KO6KlMw4/edit#slide=id.p)
@@ -89,10 +88,14 @@ Click Software > Online Tools
 
 ![image](https://user-images.githubusercontent.com/61120323/90761638-9a243200-e2db-11ea-81c0-a34cdcf76ebe.png)
 
+Then click this button to open the editor
+
+![web editor](https://user-images.githubusercontent.com/61120323/90764548-5849ba80-e2e0-11ea-9c3e-805df1b2ad20.png)
+
 
 * Download the Arduino Timers library file [Click here for the link](https://github.com/davidcutting42/ArduinoTimers/archive/master.zip)
 
-* Download the DCC-EX library file [CLick here for the link](https://github.com/DCC-EX/CommandStation/archive/master.zip)
+* Download the DCC-EX library file [Click here for the link](https://github.com/DCC-EX/CommandStation/archive/master.zip)
 
 * Download the CommandStation Sketch [Click here for the link](https://github.com/DCC-EX/CommandStation-DCC/archive/master.zip)
 
@@ -110,6 +113,8 @@ You will see other folders there which are other libraries for the Arduino. Your
 
 Unzip the CommandStation-DCC.zip file to your download or desktop folder and then move it to your Arduino projects folder, which should be:
 /documents/Arduino **Do we have to specify which library - there are three, which one will it go in?**
+
+
 
 You may notice other project folders here, and should see the libraries folder where we just copied your libraries to.
 
