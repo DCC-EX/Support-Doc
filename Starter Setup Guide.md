@@ -54,22 +54,24 @@ FIrstly there are the componenents. You either need to have or buy
     * To download the software that runs the Command Station
     * To operate the layout either
         * By using the JMRI control application
-        * -or- to utilise the Arduino Serial Monitor
+       OR
+        * To utilise the Arduino Serial Monitor
         
         
+* **The DCC++ EX Software** The DCC++ EX sofware (called a "sketch") is loaded onto the your Arduino command station
+           
 * **A USB A - B cable** They look like this.
 
 ![image](https://user-images.githubusercontent.com/61120323/90763568-d3aa6c80-e2de-11ea-89f3-8f7f2ea15cb8.png)
 
 
-* **The DCC++ EX Software** The DCC++ EX sofware (called a "sketch") is loaded onto the your Arduino command station
 
 
 **Connecting it all together**
 
-[Here is a diagram of a simple set-up](https://docs.google.com/presentation/d/1-QqqR-oO8w8AdobiK7A_sCFi9oz1dTh63g8KO6KlMw4/edit#slide=id.p)
+Here is a diagram of how to connect these components together. **Do  not connect any of the boards to your computer just yet**.
 
-Do  not connect any of the boards to your computer just yet.
+
 
 **Firmware**
 
