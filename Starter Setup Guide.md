@@ -101,7 +101,7 @@ Select both the above mentioned folders and move them to your Arduino libraries 
 You will see other folders there which are other libraries for the Arduino. Your new library folders will live happily next to the others.
 
 Unzip the CommandStation-DCC.zip file to your download or desktop folder and then move it to your Arduino projects folder, which should be:
-/documents/Arduino
+/documents/Arduino **Do we have to specify which library - there are three, which one will it go in?**
 
 You may notice other project folders here, and should see the libraries folder where we just copied your libraries to.
 
