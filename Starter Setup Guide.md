@@ -83,7 +83,9 @@ For now then,
 * Make sure you download and install the Arduino IDE if you don't already have it.   
       ***NOTE: This is a 192Mb download*** [Click here for the link](https://www.arduino.cc/en/Guide)
       
-When you are on the home screen go to the top of the screen and click **Software** then **Online Tools**
+You will need to sign in or create an account if you dont have one.
+      
+When you have your account set up and you are on the home screen go to the top of the screen and click **Software** then **Online Tools**
 
 ![image](https://user-images.githubusercontent.com/61120323/90761638-9a243200-e2db-11ea-81c0-a34cdcf76ebe.png)
 
