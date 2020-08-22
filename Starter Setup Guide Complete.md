@@ -1,5 +1,7 @@
 **Introduction**
 
+-- Be aware that although this will be a complete copy of the Starter Setup Guide it is as yet not fully editied.
+
 Welcome to DCC++ EX, an open-source hardware and software platform for the operation of DCC equipped model railroads based on Gregg E. Berman's DCC++ code. 
 
 DCC-EX picks up where the original DCC++ left off. By addressing some previous issues, we have released a re-named version of this as DCC++ Classic giving the model railroader everything they enjoyed in the original version - in a stable release.
