@@ -1,42 +1,12 @@
-# DCC-EX Release and Testing Approach
+### DCC-EX Product Assurance Testing Process
 
-DCC-EX plans to release our products on a periodic basis.  Before a product is released, each product Releases will follow a DCC-EX Testing process to ensure that the products we release work as expected for our users.  Each release will have a version number as described below: 
+DCC-EX Products will be released after they have successfully completed DCC-EX's **Product Assurance Testing Process (PAT)**. This process will ensure that DCC-EX users get the best product possible. This section provides additional information for developers that describe the phases of the development processess.
 
-The first release of DCC++EX based on our new Library structure shall be called Release 03.xx.xx.  All additional release will have their release number incremented according Versions as follows:
+### Release Setup
 
-### Version Numbers
+Once the DCC-EX Management Team determines that a new Product Release shall begin, they will create a new GitHub Release with some preliminary information about the Release.  
 
-DCC-EX uses GitHub Semantic Versioning to version our products.  Each version will be given a version number as follows: 
-					aa.bb.cc-suffix-x  where:
-
-**aa** is the Major version of the product and is incremented when an incompatible API change is made to a product or there is a major change to the features of the product or there is a major internal architecture of the product
-
-**bb** is the the Minor version of the product and is incremented when functionality is added in a backwards compatible manner
-
-**cc** is the Patch version of the product and is incremented whenever there is one or more backwards compatible bug fixes
-
-### Release Suffixes and Testing
-
-**Developer Release** – are internal version of the productr that are worked on by the developers as they add new features and fix bugs.  This work is done on the developers own branch of the prodcut until the product successfully passes Developer Testing.  No specific tagging of these releases are required. 
-
-**Release Testing Suffixes** shall be added to the end of the Version Number for the various stages of Testing as follows:
-
-**Alpha Release**  - once developer testing has been successfuly completed, the Developer Branch shall be merged back into the the Product Master Branch and shall be re-tagged as an Alpha Release and testing by the DCC-EX Test Team will begin. 
-
-**Beta Release** – once Alpha Testing has been successfully completed, the product shall be re-taggest as a Beta Release and key individuals outside the DCC-EX team, shall be asked by invitation, to test the product for a pre-planned period-of-time. 
-
-**Production Release** – once the Beta Test period has been completed, and there are no major issues identified, the product shall be re-tagged as as Production Release without any Suffix and made available to everyone.
-
-Testing Suffixes shall have a number added to the end of the Suffix which is incremented every time a new version of the Test Release is released adn re-tagged.  Several examples of this are shown below:  
-
-- v1.2.4-Alpha-1
-- V2.1.2-Beta-3
-
-### Development Phases
-
-This section provides additional information for developers that describe the phases of the development processess.
-
-##### Development Phase 
+### Development Phase
 
 1. For any given Product Release, all code modules should be in the Master Branches of GitHub  
 2. Developers making additions / modifications to the modules shall create their own Branch off the Master and make their changes and do their own unit and integration testing in their own Branches
@@ -55,7 +25,7 @@ This section provides additional information for developers that describe the ph
    f. Once all Testers have completed their testing, as best they can, the Key Tester will identify all potential “Bugs” identified and submit a DCC++EX Bug Report for each bug identified into the GitHub DCC++EX Dev-Project
    
 #### Beta Testing Phase
-   
+
 3. Once the Alpha Release passes all Acceptance Testing and there are no major Bug Reports, the DCC++EX Chief Tinker shall Merge all branches into the Master Branch and Tag that version as DCC++EX xx.xx.xx-Beta, add it to the DCC++EX Download Page and notify potential Beta Testers
    a. Beta Testers shall submit a DCC++EX Bug Report for each bug identified into the GitHub DCC++EX Dev-Project
    b. Beta Testing shall last a predetermined amount of time, of on average, One Month
