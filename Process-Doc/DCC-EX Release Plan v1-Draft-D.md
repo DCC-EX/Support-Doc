@@ -1,8 +1,12 @@
-# DCC-EX Release, Version Numbering & Testing Guide
+| DCC-EX | DCC-EX Release, Version Numbering & Testing Guide | v1-Draft-A | 15-Sept-2020 |
+| :----- | ------------------------------------------------- | ---------- | -----------: |
+|        |                                                   |            |              |
 
 ## Overview
 
-## Product Releases
+Lotsum Flors morjesl lkdfj jlksruewh hllsfk
+
+### Product Releases
 
 The DCC-EX Project will use a variation of GitHub's **[Semantic Versioning](https://semver.org)** approach to managing  version numbers for its software products and documentation.  
 
@@ -13,13 +17,15 @@ DCC-EX will periodially release its products to its customrers.  **Releases** ar
    - **Links to binary files** that are included in the release
         - **Note:** There must be at least one or more software products that will be comgined into a Release 
 
-### Version Numbers shall take the following format:
+### Version Numbering
 
-​			 **aa.bb.cc-sufix-xx**
+Version Numbers shall take the following format:
+
+**aa.bb.cc-sufix-xx**
 
 **Where:**
 
-- **aa** - is the Major Release or Version number of the product.  Major versions numbers are Incremented when there is a major change to the product that results when funcionality and/or APIs are added in a way that they are incompatible with prior versions of the product; or when there is a major architectural change to the internal architecture of the product
+- **aa** - is the Major version number of the product.  The Major Version Number starts with 1 and is incremented by 1 whenever the product funcionality  is changed; APIs are changed; in a way that is incompatible with prior versions of the product; or when there is a major  change to the internal architecture of the product. 
 
 - **bb** - is the  Minor version of the product.  Minor numbers versions are Incremented when functionality is added to the product in a backwards compatible manner
 
@@ -33,16 +39,14 @@ DCC-EX will periodially release its products to its customrers.  **Releases** ar
 
 - **xx** - is a number after the suffix that indicates that the number of times the product has entered this test phase 
 
-- **Note:** **Testing Suffix Numbers** shall start with the Number 1 added to the end of the **Suffix**.  This number will be incremented whenever that particular test phase must be rerun with an improved version of the software.  
+   **Note:** **Testing Suffix Numbers** shall start with the number 1 added to the end of the **Suffix**.  This number will be incremented whenever that particular test phase must be rerun with an improved version of the software.  
 
-Examples of this are shown below:  
+   **Note:** **Testing Suffix Numbers** shall start with the number 1 added to the end of the **Suffix**.  This number will be incremented whenever that particular test phase must be rerun with an improved version of the software.  
+
+**Examples** of this are shown below:  
 
 - **v1.2.4-Alpha-1**
 - **V2.1.2-Beta-3**
-
-
-
-
 
 ## Software Product Version Numbering and Test Phase
 
