@@ -1,6 +1,6 @@
-| DCC-EX | DCC-EX Release, Version Numbering & Testing Guide | v1-Draft-A | 15-Sept-2020 |
-| :----- | ------------------------------------------------- | ---------- | -----------: |
-|        |                                                   |            |              |
+| DCC-EX        | Release, Version Numbering & Testing Guide |
+| :------------ | :----------------------------------------: |
+| **2-Sept-20** |               **V1-Draft-D**               |
 
 ## Overview
 
