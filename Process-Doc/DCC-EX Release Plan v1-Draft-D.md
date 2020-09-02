@@ -25,11 +25,11 @@ Version Numbers shall take the following format:
 
 **Where:**
 
-- **aa** - is the Major version number of the product.  The Major Version Number starts with 1 and is incremented by 1 whenever the product funcionality  is changed; APIs are changed; in a way that is incompatible with prior versions of the product; or when there is a major  change to the internal architecture of the product. 
+- **aa** - is the Major version number of the product.  The Major Version Number starts with 1 and is incremented by 1 whenever the product funcionality  is signifacently changed; APIs are changed in a way that is incompatible with prior versions of the product; or when there is a major change to the internal architecture of the product. 
 
-- **bb** - is the  Minor version of the product.  Minor numbers versions are Incremented when functionality is added to the product in a backwards compatible manner
+- **bb** - is the  Minor version of the product.  Minor numbers versions start with O are Incremented by 1 when functionality is added to the product in a backwards compatible manner
 
-- **cc** is the Patch or Fix version of the product.  The Patch version is incremented whenever there are one or more backwards compatible Patch Fixes to the product that correct a bug in the  product
+- **cc** is the Patch or Fix version of the product.  This version starts with 0 and incremented by 1 whenever there are  backwards compatible Fixe(s) to the product that correct bug(s) in the  product
 
 - **Suffix** - is the Testing Phase of the Product
 
@@ -41,18 +41,18 @@ Version Numbers shall take the following format:
 
    **Note:** **Testing Suffix Numbers** shall start with the number 1 added to the end of the **Suffix**.  This number will be incremented whenever that particular test phase must be rerun with an improved version of the software.  
 
-   **Note:** **Testing Suffix Numbers** shall start with the number 1 added to the end of the **Suffix**.  This number will be incremented whenever that particular test phase must be rerun with an improved version of the software.  
-
 **Examples** of this are shown below:  
 
 - **v1.2.4-Alpha-1**
 - **V2.1.2-Beta-3**
 
-## Software Product Version Numbering and Test Phase
+### Product Releases
 
 Each DCC-EX Release may include multiple products each having its own Version Number.  For some products the Release Number and Version Number will be the same.  For other Releaes, multiple DCC-EX Products will be combined togetherinto one Releas, (For example:  A Product and several Software Libraries).  In these cases, each product may have a different version number than the Release.  
 
 In many cases a product may undergo a number of internal  testing releases before it is released to customers.  In this case, a  product may have a number of different Testing  Version Number Tags depending on how the product was tested.  
+
+ Once the Beta Test period has been successfully completed and there no major issues identified, the product shall be re-tagged as as Production Release without any Suffix and made available to everyone as follows:
 
 Each software  component of a DCC-EX Product will have its own version number as follows: 
 
@@ -66,25 +66,23 @@ Each software  component of a DCC-EX Product will have its own version number as
 
   **Patch** - is the patch or fix version of the product (see above)
 
+## Software Product Test Phase
 
+In order to insure the best possilbe product for our customers, DCC-DX uses a **Product Assurance Testing  (PAT)** process consists of three phases, **Developer **T**esting**,  **Alpha Testing** and **Beta Testing** as shown below:  
 
-The **Suffux** is added to the end of the Product Version Number to facilitate the DCC-EX **Product Assurance Testing or PAT** Process.  The **PAT** process consists of three phases, **Developer **T**esting**,  **Alpha Testing** and **Beta Testing** and each Phase shall change the **Suffix** as follow below:
-
-### Developer Testing and Tagging
+### Developer Unit Testing
 
 During development the developer will be adding, or modify features and fixing bugs in the product. During this phase there is no requirement to Tag the developer releases. The developer can Tag these releases any way they like. 
 
 **Suffix = No Tag Required**-  for Developer Testing  no suffix tag is required
 
-### Alpha Testing and Tagging
+### Alpha Testing
 
 Once the prouduct has successfully passed all of the developers tests, it is ready forAlpha Testing by others members of the DCC-EX Team.  At this time, the  product shall be Tagged with the appropirate Product Version Number and an **Alpha** Testing Suffix shall be added to the end of the Version Number as follows:
 
    **Major.Minor.Patch-Alpha-x** 
 
-
-
-### Beta Testing and Tagging
+### Beta Testing
 
 Once the Product enters Beta Testing, it shall be tested by individuals outside the DCC-EX team, who shall be asked by invitation to test the product.  Beta Testing will be conducted for a pre-planned period-of-time, typically one month. Upon Entering Beta Testing,the  product will be re-tagged as follows:
 
@@ -92,38 +90,44 @@ Once the Product enters Beta Testing, it shall be tested by individuals outside 
 
 
 
-### Production Release
-
- Once the Beta Test period has been successfully completed and there no major issues identified, the product shall be re-tagged as as Production Release without any Suffix and made available to everyone as follows:
-
-**Major.Minor.Patch**
-
-The most current Release  Number would be the most up-to-date version of the product.   Examples of DCC-EX Production Releases are shown below:
-
-- **Release 1.2.2 is the current Release of DCC++Classic**
-
-- **Release 2.1.2 is the current Release of DCC++EX**
-
-- **Release 3.0.0 is the first release of DCC++EX based on our new Library Architectue**
-
-  
-
 ## DCC-EX Document Versioning
 
 DCC-EX products may be made up of software, hardware and documentation including guides, users manuals, etc. DCC-EX Documents shall have a version number similar to the product verson number:
 
-**Major.Minor.Patch**
+**aa.bb.cc-sufix-xx**
 
 **Where:**
 
-- **Major** - is the Major Version number of the doument.  Major versions numbers are Incremented when there is a major change to the document that results when funcionality it describes or the APIs described are added in a way that they are incompatible with prior versions of the product; or when there is a major architectural change to the internal architecture of the document
-- **Minor** - is the  Minor version of the document.  Minor numbers versions are incremented when significant functionality is added to the product description in a backwards compatible manner
-- **Patch** is the Patch or Fix version of the document.  The Patch version is incremented whenever there are one or more backwards compatible Patch Fixes  that correct errors in the document 
+- **aa** - is the Major version number of the document.  The Major Version Number starts with 1 and is incremented by 1 when there is a major change to the document, or when there is a major architectural change to the internal architecture of the document
 
-While documents are still in development, the should have a **Draft Suffix** added to the end so show that they are in a Draft State followed by a Letter indicating the current version of the document.  As multiple drafts of a document may be produced, the letter would increment through the alphabet, from A to Z.  Once a document has been Reviewed and finalized the Suffix and letter would be removed.  Some Examples:
+- **bb** - is the  Minor version of the document.  Minor numbers versions start with O are Incremented by 1 when functionality is added to the document in a backwards compatible manner
 
-**v1.0.0-Draft-C**  - 3rd draft of the first major version of the document
+- **cc** is the  Fix version of the document.  This version starts with 0 and incremented by 1 whenever there are  backwards compatible Fixe(s) to the product that  correct errors in the document 
 
-**v1.0.2** - first major version of the document with the second patch or fix
+- **Suffix = Draft** -while documents are still in development, the should have a **Draft Suffix** added to the end so show that they are in a Draft State followed by a Letter indicating the current version of the document.  As multiple drafts of a document  produced, the letter should be incremented through the alphabet, from A to Z.  Once a document has been Reviewed and finalized the Suffix and letter would be removed.  
 
-**v3.5.9-Draft-A**  - First draft, of the third major version and fifth minor versions and one  
+- Examples of Document Version Numbers: 
+
+  **v1.0.0-Draft-C**  - 3rd draft of the first major version of the document
+
+  **v1.0.2** - first major version of the document with the second patch or fix
+
+  **v3.5.9-Draft-A**  - First draft, of the third major version and fifth minor versions and one  
+
+## DCC-EX Process Versioning
+
+safj sfj slkf; sdfkj silk sdkfjlksf. Lsfj woneodrl
+
+**aa.bb.cc-sufix-xx**
+
+**Where:**
+
+- **aa** - is the Major version number of the product.  The Major Version Number starts with 1 and is incremented by 1 whenever the product funcionality  is signifacently changed; APIs are changed in a way that is incompatible with prior versions of the product; or when there is a major change to the internal architecture of the product. 
+
+- **bb** - is the  Minor version of the product.  Minor numbers versions start with O are Incremented by 1 when functionality is added to the product in a backwards compatible manner
+
+- **cc** is the Patch or Fix version of the product.  This version starts with 0 and incremented by 1 whenever there are  backwards compatible Fixe(s) to the product that correct bug(s) in the  product
+
+- **Suffix** - is the Testing Phase of the Product
+
+  **= Alpha** - indicates that the product is in Alpha Testing and it is being tested by members of the DCC-EX Team
