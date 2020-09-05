@@ -1,3 +1,9 @@
+(setq markdown-xhtml-header-content
+      "<style type='text/css'>
+.red { color: red; }
+
+</style>")
+
 | DCC-EX        | DCC-EX GitHub Project Labels |
 | :------------ | :--------------------------: |
 | **3-Sept-20** |        **V1-Draft-A**        |
@@ -8,7 +14,7 @@ DCC-EX will use the following GitHub Labels on all Support and Devlelopment task
 
 | Label                  | Color    | Description                                                  |
 | ---------------------- | -------- | ------------------------------------------------------------ |
-| Analysis-Design        | Green    | Task is to analyze the Bug or Feature and design a solution  |
+| Analysis-Design{.red}  | Green    | Task is to analyze the Bug or Feature and design a solution  |
 | Assigned               | Lt Blue  | Request has been assigned to an team member(s) to investigate |
 | Bug                    | Red      | Something isn't working as expected                          |
 | Code-Test              | Green    | Task is to code and unit test the Fix of Feature             |
