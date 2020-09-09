@@ -36,7 +36,7 @@ DCC-EX will use the following GitHub Labels on all Support and Devlelopment task
 | Re-Assigned            | Lt Blue  | TAsk has been re-assigned to a new team member(s)            |
 | Resolve                | Pink     | Task is to develop a resolution for the support request      |
 | Review                 | Blue     | Task is under Review or Pull Review                          |
-| Support Request-Alpha  | PinkBlue | Basic support request - all requests should start as Support Requests. |
+| Support Request        | PinkBlue | Basic support request - all requests should start as Support Requests. |
 | Testing-Alpha          | Blue     | Tasks is to test the software by members of the DCC-EX Core Team |
 | Testing-Beta           | Blue     | Task is to test the software by members outside DCC-EX Core Team |
 | Will-Not-Fix           | Lt Blue  | This Request (Feature or Fix) will not be worked on at this time |
