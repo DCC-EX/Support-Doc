@@ -6,7 +6,7 @@
 
 | DCC-EX        | DCC-EX GitHub Project Labels |
 | :------------ | :--------------------------: |
-| **3-Sept-20** |        **V1-Draft-A**        |
+| **9-Sept-20** |        **V1-Draft-B**        |
 
 ## Overview
 
@@ -14,7 +14,7 @@ DCC-EX will use the following GitHub Labels on all Support and Devlelopment task
 
 | Label                  | Color    | Description                                                  |
 | ---------------------- | -------- | ------------------------------------------------------------ |
-| Analysis-Design{.red}  | Green    | Task is to analyze the Bug or Feature and design a solution  |
+| Analysis-Design        | Green    | Task is to analyze the Bug or Feature and design a solution  |
 | Assigned               | Lt Blue  | Request has been assigned to an team member(s) to investigate |
 | Bug                    | Red      | Something isn't working as expected                          |
 | Code-Test              | Green    | Task is to code and unit test the Fix of Feature             |
@@ -35,9 +35,11 @@ DCC-EX will use the following GitHub Labels on all Support and Devlelopment task
 | Refactor               | Green    | Task is to restructure the software or doc to make it better or easier to maintain |
 | Re-Assigned            | Lt Blue  | TAsk has been re-assigned to a new team member(s)            |
 | Resolve                | Pink     | Task is to develop a resolution for the support request      |
-| Support Request-Alpha  | PinkBlue | Basic support request - all requests should start as Support Requests.Tasks is to test the software by members of the DCC-EX Core Team |
-| Testing-Beta           | Blue     | Task is to test the software by memebers outside DCC-EX Core Team |
-| Will-Not-Fix           | Lt Blue  | This Request (Feature or Fix) will not be worked onat this time |
+| Review                 | Blue     | Task is under Review or Pull Review                          |
+| Support Request-Alpha  | PinkBlue | Basic support request - all requests should start as Support Requests. |
+| Testing-Alpha          | Blue     | Tasks is to test the software by members of the DCC-EX Core Team |
+| Testing-Beta           | Blue     | Task is to test the software by members outside DCC-EX Core Team |
+| Will-Not-Fix           | Lt Blue  | This Request (Feature or Fix) will not be worked on at this time |
 
 
 
