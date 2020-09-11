@@ -1,0 +1,192 @@
+Creates either a Serial or EthernetServer called INTERFACE
+
+then calls INTERFACE.print() in the code to send output 
+to the USB port or the Network Shield
+
+Connects with SPI port using the ICSP header. If the stack
+of boards blocks or doesn't expose the SPI, you need jumpers
+to the pins on the Uno/Mega
+
+Pins Used:
+
+Uno  - 10,11,12,13
+Mega - 10,50,51,52,53 (53 isn't used but has to be kept as an output for SS)
+
+Also, pin 4 is used by the SDCard
+
+We disable the SDCard because it shares the same SPI bus and only the ethernet
+chip or the SDCard can be active at any given time.
+
+NOTE ABOUT LIBARIES - We need to re-investigate libraries since the Ethernet
+                      library added support up to the W5500 chip. So we may
+                      be able to use just one library
+
+
+
+---------- In Config.h ------------
+
+// 0 serial port
+// 1 Arduino.cc shield (W5100, 16kb buffer)
+// 2 Arduino.org shield
+// 3 Seeed Studio W5200 shield
+
+
+#define COMM_INTERFACE = 1
+
+// uncomment for static IP, otherwise DHCP will assign it
+// #define IP_ADDRESS { 192, 168, 1, 200 } 
+
+#define ETHERNET_PORT 2560
+
+// FlightRisk - I think we need this mode since newer boards have a MAC
+//#if defined(WIZ550io_WITH_MACADDRESS) // Use assigned MAC address of WIZ550io
+//;
+//#else
+//byte mac[] = {  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEF }
+
+#define MAC_ADDRESS {  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEF }
+
+
+--------- in comm.h --------------
+
+#if COMM_TYPE == 1                 // Ethernet Shield Card Selected
+
+  #if COMM_INTERFACE == 1
+    #define COMM_SHIELD_NAME      "ARDUINO-CC ETHERNET SHIELD (WIZNET 5100)"
+    #include <Ethernet.h>         // built-in Arduino.cc library
+
+  #elif COMM_INTERFACE == 2
+    #define COMM_SHIELD_NAME      "ARDUINO-ORG ETHERNET-2 SHIELD (WIZNET 5500)"
+    #include <Ethernet2.h>        // https://github.com/arduino-org/Arduino
+
+  #elif COMM_INTERFACE == 3
+    #define COMM_SHIELD_NAME      "SEEED STUDIO ETHERNET SHIELD (WIZNET 5200)"
+    #include <EthernetV2_0.h>     // https://github.com/Seeed-Studio/Ethernet_Shield_W5200
+
+  #endif
+
+  extern EthernetServer INTERFACE;
+#endif 
+
+
+
+---------- in main.h --------------
+
+#if COMM_INTERFACE == 0
+
+  #define COMM_TYPE 0
+  #define INTERFACE Serial
+
+#elif (COMM_INTERFACE==1) || (COMM_INTERFACE==2) || (COMM_INTERFACE==3)
+
+  #define COMM_TYPE 1
+  #define INTERFACE eServer
+  #define SDCARD_CS 4
+
+#else
+ 
+ #error Can't compile, select the right COMM_INTERFACE
+
+----------- in main.ino --------------
+
+#if COMM_TYPE == 1
+  byte mac[] =  MAC_ADDRESS;                                // Create MAC address (to be used for DHCP when initializing server)
+  EthernetServer INTERFACE(ETHERNET_PORT);                  // Create and instance of an EnternetServer
+#endif
+
+void setup(){  
+
+  #ifdef SDCARD_CS
+    pinMode(SDCARD_CS,OUTPUT);
+    digitalWrite(SDCARD_CS,HIGH);     // Deselect the SD card
+  #endif
+
+  #if COMM_TYPE == 1
+    #ifdef IP_ADDRESS
+      Ethernet.begin(mac,IP_ADDRESS);           // Start networking using STATIC IP Address
+    #else
+      // FlightRisk - Probably need "if Ethernet.begin(mac)== 0 then print "DHCP Failed"
+      Ethernet.begin(mac);                      // Start networking using DHCP to get an IP Address
+    #endif
+    INTERFACE.begin();
+  #endif
+             
+  SerialCommand::init(&mainRegs, &progRegs, &mainMonitor);   // create structure to read and parse commands from serial line
+
+  Serial.print("<N");
+  Serial.print(COMM_TYPE);
+  Serial.print(": ");
+
+  #if COMM_TYPE == 0
+    Serial.print("SERIAL>");
+  #elif COMM_TYPE == 1
+    Serial.print(Ethernet.localIP());
+    Serial.print(">");
+  #endif
+
+} // setup
+
+
+   #ifdef IP_ADDRESS
+      Ethernet.begin(mac,IP_ADDRESS);           // Start networking using STATIC IP Address
+   #else
+      Ethernet.begin(mac);                      // Start networking using DHCP to get an IP Address
+   #endif 
+
+void(loop) {
+
+serialCommand.process()
+
+} // loop   
+
+------------- in serialCommand.cpp ---------------
+
+void SerialCommand::process(){
+  char c;
+    
+  #if COMM_TYPE == 0
+
+    while(INTERFACE.available()>0){    // while there is data on the serial line
+     c=INTERFACE.read();
+     if(c=='<')                    // start of new command
+       sprintf(commandString,"");
+     else if(c=='>')               // end of new command
+       parse(commandString);                    
+     else if(strlen(commandString)<MAX_COMMAND_LENGTH)    // if comandString still has space, append character just read from serial line
+       sprintf(commandString,"%s%c",commandString,c);     // otherwise, character is ignored (but continue to look for '<' or '>')
+    } // while
+  
+  #elif COMM_TYPE == 1
+
+    EthernetClient client=INTERFACE.available();
+
+    if(client){
+      while(client.connected() && client.available()){        // while there is data on the network
+      c=client.read();
+      if(c=='<')                    // start of new command
+        sprintf(commandString,"");
+      else if(c=='>')               // end of new command
+        parse(commandString);                    
+      else if(strlen(commandString)<MAX_COMMAND_LENGTH)    // if comandString still has space, append character just read from network
+        sprintf(commandString,"%s%c",commandString,c);     // otherwise, character is ignored (but continue to look for '<' or '>')
+      } // while
+    }
+
+  #endif
+
+} // SerialCommand:process
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
