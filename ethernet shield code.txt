@@ -1,0 +1,228 @@
+Creates either a Serial or EthernetServer called INTERFACE
+
+then calls INTERFACE.print() in the code to send output 
+to the USB port or the Network Shield
+
+Connects with SPI port using the ICSP header. If the stack
+of boards blocks or doesn't expose the SPI, you need jumpers
+to the pins on the Uno/Mega
+
+< grbba : that would still be true if the connectors aren't accessible. In a standard CommandStation stack 
+< from bottom to top Mega , EthernetShield, motorShield that should not be the case
+
+Pins Used:
+
+Uno  - 10,11,12,13
+Mega - 10,50,51,52,53 (53 isn't used but has to be kept as an output for SS)
+
+< grbba: bleow that is a good question and i have no idea but would the SD card be the only one 
+< conflicting in this case. Not so sure we shall take that on for now but see if someone comes 
+< along with such an issue
+
+Also, pin 4 is used by the SDCard
+
+We disable the SDCard because it shares the same SPI bus and only the ethernet
+chip or the SDCard can be active at any given time.
+
+NOTE ABOUT LIBARIES - We need to re-investigate libraries since the Ethernet
+                      library added support up to the W5500 chip. So we may
+                      be able to use just one library
+
+< grbba: The above is true today no need for muktiple libraries for Ethernet all Wiznet chips starting from
+< 5100 up to the latest are ok only use the std Ethernet library from the Arduino framework
+
+---------- In Config.h ------------
+
+// 0 serial port
+// 1 Arduino.cc shield (W5100, 16kb buffer)
+// 2 Arduino.org shield
+// 3 Seeed Studio W5200 shield
+
+
+
+#define COMM_INTERFACE = 1
+
+// uncomment for static IP, otherwise DHCP will assign it
+// #define IP_ADDRESS { 192, 168, 1, 200 } 
+
+#define ETHERNET_PORT 2560
+
+< grbba: Port 2560 is taken by IBM fro a service called labrat :) so we should look for an unassigned port. I suggested 6988 as the int representaion of 'EX'
+< and which is currently unassigned
+
+// FlightRisk - I think we need this mode since newer boards have a MAC
+//#if defined(WIZ550io_WITH_MACADDRESS) // Use assigned MAC address of WIZ550io
+//;
+//#else
+//byte mac[] = {  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEF }
+
+#define MAC_ADDRESS {  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEF }
+
+< grbba: All the Ethernet Shields don't have a MAC burned into them so you have to make one up. The newer shields come with a sticker having the MAC
+< allocated to them written on. It's an issue when you have the same MAC twice on the network. Obviously this is aserious security flaw but outside of our reach. 
+< When only being on the local network no issue but if you run across the internet mileage may vary. 
+< I added some generated ones in the comments of my implementation but as haba suggested we can derive one from the chip Id to make it fairly unique across 
+< multiple CommandStations. Then even when having multiple commandstations on the nework it would be fine. 
+
+--------- in comm.h --------------
+
+#if COMM_TYPE == 1                 // Ethernet Shield Card Selected
+
+  #if COMM_INTERFACE == 1
+    #define COMM_SHIELD_NAME      "ARDUINO-CC ETHERNET SHIELD (WIZNET 5100)"
+    #include <Ethernet.h>         // built-in Arduino.cc library
+
+  #elif COMM_INTERFACE == 2
+    #define COMM_SHIELD_NAME      "ARDUINO-ORG ETHERNET-2 SHIELD (WIZNET 5500)"
+    #include <Ethernet2.h>        // https://github.com/arduino-org/Arduino
+
+  #elif COMM_INTERFACE == 3
+    #define COMM_SHIELD_NAME      "SEEED STUDIO ETHERNET SHIELD (WIZNET 5200)"
+    #include <EthernetV2_0.h>     // https://github.com/Seeed-Studio/Ethernet_Shield_W5200
+
+  #endif
+
+  extern EthernetServer INTERFACE;
+#endif 
+
+< grbba: All of the above isn't neeed anymore
+
+---------- in main.h --------------
+
+#if COMM_INTERFACE == 0
+
+  #define COMM_TYPE 0
+  #define INTERFACE Serial
+
+#elif (COMM_INTERFACE==1) || (COMM_INTERFACE==2) || (COMM_INTERFACE==3)
+
+  #define COMM_TYPE 1
+  #define INTERFACE eServer
+  #define SDCARD_CS 4
+
+#else
+ 
+ #error Can't compile, select the right COMM_INTERFACE
+ 
+ 
+< grbba: I actually detect presence/absence of the shield and/or wifi card at runtime and report an error if there is an issue but do not abort as i assume that
+< in the worst case scenario you still would have serial bia serial monitor aviailble to issue commands if needed 
+
+----------- in main.ino --------------
+
+#if COMM_TYPE == 1
+  byte mac[] =  MAC_ADDRESS;                                // Create MAC address (to be used for DHCP when initializing server)
+  EthernetServer INTERFACE(ETHERNET_PORT);                  // Create and instance of an EnternetServer
+#endif
+
+void setup(){  
+
+  #ifdef SDCARD_CS
+    pinMode(SDCARD_CS,OUTPUT);
+    digitalWrite(SDCARD_CS,HIGH);     // Deselect the SD card
+  #endif
+
+  #if COMM_TYPE == 1
+    #ifdef IP_ADDRESS
+      Ethernet.begin(mac,IP_ADDRESS);           // Start networking using STATIC IP Address
+    #else
+      // FlightRisk - Probably need "if Ethernet.begin(mac)== 0 then print "DHCP Failed"
+      Ethernet.begin(mac);                      // Start networking using DHCP to get an IP Address
+    #endif
+    INTERFACE.begin();
+  #endif
+             
+  < grbba: Yes indeed if DHCP fails you should ty to assign a fixed ip adress and see if you can connect this way. In any case the fixed IP address will
+  < have to be edidted by the user according to his/her network config. My base address range e.g. is 10.0.x.y
+  
+        
+  SerialCommand::init(&mainRegs, &progRegs, &mainMonitor);   // create structure to read and parse commands from serial line
+
+  Serial.print("<N");
+  Serial.print(COMM_TYPE);
+  Serial.print(": ");
+
+  #if COMM_TYPE == 0
+    Serial.print("SERIAL>");
+  #elif COMM_TYPE == 1
+    Serial.print(Ethernet.localIP());
+    Serial.print(">");
+  #endif
+
+  < grbba: All of the above is done by the parser : btw the parser doesn't validate if i just send a valid command without the < > brackets it gets 
+  < executed and if i send something like 'stuff' <s> gets executed. Not an issue for the Arduino but on any other computer that is a mega security hole 
+  < as it would allow e.g. for code injection etc.. or any other wierd things. On a smaller scale here as well you don't want any commandsting just 
+  < create havoc on the system and make all you locos etc.. behave in a non determistic fashion :)
+  < i will try and see what hapens if i send a 300char long arbitrary string to the commandStation ... 
+
+} // setup
+
+
+   #ifdef IP_ADDRESS
+      Ethernet.begin(mac,IP_ADDRESS);           // Start networking using STATIC IP Address
+   #else
+      Ethernet.begin(mac);                      // Start networking using DHCP to get an IP Address
+   #endif 
+
+void(loop) {
+
+serialCommand.process()
+
+} // loop   
+
+------------- in serialCommand.cpp ---------------
+
+void SerialCommand::process(){
+  char c;
+    
+  #if COMM_TYPE == 0
+
+    while(INTERFACE.available()>0){    // while there is data on the serial line
+     c=INTERFACE.read();
+     if(c=='<')                    // start of new command
+       sprintf(commandString,"");
+     else if(c=='>')               // end of new command
+       parse(commandString);                    
+     else if(strlen(commandString)<MAX_COMMAND_LENGTH)    // if comandString still has space, append character just read from serial line
+       sprintf(commandString,"%s%c",commandString,c);     // otherwise, character is ignored (but continue to look for '<' or '>')
+    } // while
+  
+  #elif COMM_TYPE == 1
+
+    EthernetClient client=INTERFACE.available();
+
+    if(client){
+      while(client.connected() && client.available()){        // while there is data on the network
+      c=client.read();
+      if(c=='<')                    // start of new command
+        sprintf(commandString,"");
+      else if(c=='>')               // end of new command
+        parse(commandString);                    
+      else if(strlen(commandString)<MAX_COMMAND_LENGTH)    // if comandString still has space, append character just read from network
+        sprintf(commandString,"%s%c",commandString,c);     // otherwise, character is ignored (but continue to look for '<' or '>')
+      } // while
+    }
+
+  #endif
+  
+  < grbba: one thing Gregg has ignored here is the fact that even the oldest cards have 4 socket connections available i.e. 4 simultaneous 
+  < connections are possible the newer ones have 8. I added support for the max number of sockets and read from all of them. Well i never 
+  < so far actually managed to get beyond 2 // connections so far but when you ramp up the connection load that could well be the case 
+  < that you start using more of them
+
+} // SerialCommand:process
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
