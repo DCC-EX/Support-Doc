@@ -1,0 +1,959 @@
+TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2095 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2095.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 967]   Current: 967 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2057 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2057.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 949]   Current: 949 / 1024
+[TX: 0]   Track Power OFF Cmd 
+[RX: p0]   Power Status: OFF
+
+
+
+[TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1539 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1539.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 710]   Current: 710 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1575 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1575.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 727]   Current: 727 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1542 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1542.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 712]   Current: 712 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1530 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1530.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 706]   Current: 706 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1536 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1536.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 709]   Current: 709 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1551 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1551.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 716]   Current: 716 / 1024
+[TX: 0]   Track Power OFF Cmd 
+[RX: p0]   Power Status: OFF
+
+
+
+[TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2051 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2051.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 946]   Current: 946 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2036 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2036.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 939]   Current: 939 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2075 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2075.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 957]   Current: 957 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2042 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2042.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 942]   Current: 942 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2057 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2057.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 949]   Current: 949 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1940 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1940.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 895]   Current: 895 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1994 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1994.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 920]   Current: 920 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2045 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2045.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 943]   Current: 943 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2021 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2021.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 932]   Current: 932 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2030 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2030.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 937]   Current: 937 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2069 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2069.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 954]   Current: 954 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2045 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2045.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 943]   Current: 943 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2054 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2054.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 948]   Current: 948 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2033 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2033.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 938]   Current: 938 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2054 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2054.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 948]   Current: 948 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1964 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1964.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 906]   Current: 906 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2021 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2021.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 932]   Current: 932 / 1024
+[TX: 0]   Track Power OFF Cmd 
+[RX: p0]   Power Status: OFF
+
+[TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 3058 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 3058.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 1411]   Current: 1411 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 3058 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 3058.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 1411]   Current: 1411 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 3058 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 3058.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 1411]   Current: 1411 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+
+
+
+[TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1764 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1764.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 814]   Current: 814 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1764 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1764.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[TX: c]   Read Track Current Cmd 
+[RX: a 814]   Current: 814 / 1024
+[RX: c CurrentMAIN 1764 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1764.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 814]   Current: 814 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1749 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1749.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 807]   Current: 807 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1746 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1746.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 805]   Current: 805 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1743 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1743.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 804]   Current: 804 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1767 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1767.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 815]   Current: 815 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1796 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1796.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 829]   Current: 829 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1788 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1788.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 825]   Current: 825 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1749 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1749.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 807]   Current: 807 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1758 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1758.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 811]   Current: 811 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1767 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1767.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 815]   Current: 815 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1755 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1755.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 810]   Current: 810 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1746 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1746.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 805]   Current: 805 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1743 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1743.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 804]   Current: 804 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1743 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1743.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 804]   Current: 804 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1764 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1764.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 814]   Current: 814 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1758 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1758.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 811]   Current: 811 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1761 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1761.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 812]   Current: 812 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1764 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1764.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 814]   Current: 814 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1767 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1767.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 815]   Current: 815 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1734 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1734.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 800]   Current: 800 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1773 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1773.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 818]   Current: 818 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1788 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1788.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 825]   Current: 825 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1770 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1770.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 816]   Current: 816 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1755 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1755.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 810]   Current: 810 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1758 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1758.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 811]   Current: 811 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1773 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1773.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 818]   Current: 818 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1749 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1749.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 807]   Current: 807 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1692 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1692.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 781]   Current: 781 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1746 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1746.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 805]   Current: 805 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1776 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1776.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 819]   Current: 819 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1767 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1767.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 815]   Current: 815 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1731 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1731.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 799]   Current: 799 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1719 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1719.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 793]   Current: 793 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1743 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1743.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 804]   Current: 804 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1755 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1755.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 810]   Current: 810 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1773 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1773.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 818]   Current: 818 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1743 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1743.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 804]   Current: 804 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1770 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1770.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 816]   Current: 816 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1773 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1773.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 818]   Current: 818 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1773 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1773.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 818]   Current: 818 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1779 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1779.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 821]   Current: 821 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1764 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1764.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 814]   Current: 814 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1764 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1764.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 814]   Current: 814 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1743 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1743.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 804]   Current: 804 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1743 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1743.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 804]   Current: 804 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1767 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1767.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 815]   Current: 815 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1743 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1743.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 804]   Current: 804 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1746 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1746.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 805]   Current: 805 / 1024
+[TX: 0]   Track Power OFF Cmd 
+[RX: p0]   Power Status: OFF
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+
+
+
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+[TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 947 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 947.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 437]   Current: 437 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 867 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 867.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 400]   Current: 400 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 858 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 858.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 396]   Current: 396 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[TX: c]   Read Track Current Cmd 
+[RX: a 398]   Current: 398 / 1024
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 944 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 944.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 436]   Current: 436 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 944 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 944.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 436]   Current: 436 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 861 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 861.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 397]   Current: 397 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 944 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 944.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 436]   Current: 436 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 944 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 944.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 436]   Current: 436 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 858 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 858.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 396]   Current: 396 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 858 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 858.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 396]   Current: 396 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 947 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 947.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 437]   Current: 437 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 867 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 867.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 400]   Current: 400 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 944 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 944.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 436]   Current: 436 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 858 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 858.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 396]   Current: 396 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 944 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 944.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 436]   Current: 436 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 944 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 944.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 436]   Current: 436 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 867 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 867.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 400]   Current: 400 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 858 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 858.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 396]   Current: 396 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 935 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 935.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 431]   Current: 431 / 1024
+[TX: cc]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 941 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 941.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 434]   Current: 434 / 1024
+[TX: 0]   Track Power OFF Cmd 
+[RX: p0]   Power Status: OFF
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+
+
+
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+[TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 580 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 580.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 267]   Current: 267 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 639 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 639.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 295]   Current: 295 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 633 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 633.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 292]   Current: 292 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 636 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 636.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 293]   Current: 293 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 636 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 636.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 293]   Current: 293 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 577 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 577.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 266]   Current: 266 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 583 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 583.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 269]   Current: 269 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 583 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 583.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 269]   Current: 269 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 633 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 633.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 292]   Current: 292 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 633 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 633.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 292]   Current: 292 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 574 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 574.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 264]   Current: 264 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 639 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 639.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 295]   Current: 295 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 583 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 583.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 269]   Current: 269 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 577 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 577.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 266]   Current: 266 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 577 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 577.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 266]   Current: 266 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 633 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 633.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 292]   Current: 292 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 577 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 577.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 266]   Current: 266 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 580 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 580.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 267]   Current: 267 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 633 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 633.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 292]   Current: 292 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 633 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 633.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 292]   Current: 292 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 639 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 639.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 295]   Current: 295 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 574 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 574.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 264]   Current: 264 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 577 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 577.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 266]   Current: 266 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 633 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 633.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 292]   Current: 292 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 580 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 580.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 267]   Current: 267 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 633 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 633.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 292]   Current: 292 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 633 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 633.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 292]   Current: 292 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 577 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 577.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 266]   Current: 266 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 574 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 574.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 264]   Current: 264 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 574 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 574.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 264]   Current: 264 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 639 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 639.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 295]   Current: 295 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 577 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 577.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 266]   Current: 266 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 577 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 577.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 266]   Current: 266 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 630 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 630.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 291]   Current: 291 / 1024
+[TX: 0]   Track Power OFF Cmd 
+[
+
+
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+[TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 959 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 959.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 442]   Current: 442 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 962 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 962.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 444]   Current: 444 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 959 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 959.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 442]   Current: 442 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 867 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 867.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 400]   Current: 400 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 873 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 873.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 402]   Current: 402 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 879 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 879.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 405]   Current: 405 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 879 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 879.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 405]   Current: 405 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 873 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 873.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 402]   Current: 402 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 959 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 959.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 442]   Current: 442 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 959 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 959.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 442]   Current: 442 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 959 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 959.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 442]   Current: 442 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 879 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 879.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 405]   Current: 405 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 876 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 876.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 404]   Current: 404 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 873 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 873.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 402]   Current: 402 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 873 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 873.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 402]   Current: 402 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 953 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 953.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 440]   Current: 440 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 864 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 864.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 398]   Current: 398 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 950 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 950.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 438]   Current: 438 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 870 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 870.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 401]   Current: 401 / 1024
+[TX: 0]   Track Power OFF Cmd 
+[RX: p0]   Power Status: OFF
+
+
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+[TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1381 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1381.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 637]   Current: 637 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1315 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1315.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 607]   Current: 607 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1318 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1318.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 608]   Current: 608 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1315 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1315.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 607]   Current: 607 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1369 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1369.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 632]   Current: 632 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1375 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1375.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 634]   Current: 634 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1312 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1312.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 605]   Current: 605 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1312 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1312.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 605]   Current: 605 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1315 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1315.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 607]   Current: 607 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1315 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1315.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 607]   Current: 607 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1315 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1315.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 607]   Current: 607 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1315 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1315.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 607]   Current: 607 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1381 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1381.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 637]   Current: 637 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1375 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1375.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 634]   Current: 634 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1315 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1315.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 607]   Current: 607 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1375 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1375.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 634]   Current: 634 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1315 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1315.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 607]   Current: 607 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1372 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1372.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 633]   Current: 633 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1315 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1315.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 607]   Current: 607 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1375 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1375.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 634]   Current: 634 / 1024
+[TX: 0]   Track Power OFF Cmd 
+[RX: p0]   Power Status: OFF
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+
+
+
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+[TX: 1]   Track Power ON Cmd 
+[RX: p1]   Power Status: ON
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2006 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2006.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 926]   Current: 926 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2069 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2069.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 954]   Current: 954 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1997 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1997.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 921]   Current: 921 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1922 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1922.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 887]   Current: 887 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2009 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2009.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 927]   Current: 927 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1910 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1910.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 881]   Current: 881 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1922 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1922.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 887]   Current: 887 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2000 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2000.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 923]   Current: 923 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1922 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1922.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 887]   Current: 887 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1910 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1910.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 881]   Current: 881 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2012 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2012.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 928]   Current: 928 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1916 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1916.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 884]   Current: 884 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2018 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2018.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 931]   Current: 931 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2003 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2003.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 924]   Current: 924 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1916 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1916.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 884]   Current: 884 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2006 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2006.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 926]   Current: 926 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2000 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2000.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 923]   Current: 923 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1916 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1916.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 884]   Current: 884 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2018 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2018.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 931]   Current: 931 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2018 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2018.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[TX: c]   Read Track Current Cmd 
+[RX: a 931]   Current: 931 / 1024
+[RX: c CurrentMAIN 2018 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2018.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 931]   Current: 931 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1922 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1922.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 887]   Current: 887 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2006 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2006.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 926]   Current: 926 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2000 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2000.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 923]   Current: 923 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1922 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1922.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 887]   Current: 887 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2012 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2012.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 928]   Current: 928 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1934 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1934.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 892]   Current: 892 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1916 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1916.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 884]   Current: 884 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2012 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2012.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 928]   Current: 928 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 1934 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 1934.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 892]   Current: 892 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2006 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2006.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 926]   Current: 926 / 1024
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 2006 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 2006.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 926]   Current: 926 / 1024
+[TX: 0]   Track Power OFF Cmd 
+[RX: p0]   Power Status: OFF
+[TX: c]   Read Track Current Cmd 
+[RX: c CurrentMAIN 0 C Milli 0 2218 1 2218]   Meter reply: name CurrentMAIN, value 0.00, type C, unit Milli, min 0.00, max 2218.00, resolution 1.00, warn 2218.00
+[RX: a 0]   Current: 0 / 1024
+
