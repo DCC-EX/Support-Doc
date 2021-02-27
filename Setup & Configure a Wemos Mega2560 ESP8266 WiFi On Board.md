@@ -1,10 +1,10 @@
 
-DCC++EX Mega2560 + ESP8266 WiFI On-board.  A Standalone WiFi DCC Command Station.
+DCC++EX Mega2560 + ESP8266 WiFI On-board.  'A Operational Standalone WiFi DCC Command Station'
 
 A Tested and proven Configuration:
 DCC++EX >= 3.0.3 
-Wemos ATmega2560+ESP8266WiFi Combo Board
-Deek Robot L298P Motor shield
+Wemos ATmega2560 + ESP8266 WiFi - Combo Board
+Deek Robot L298P Motor Shield
 16.5vdc laptop power supply to the Motor shield, with 14.5vac to the tracks for HO gauge
 9vdc power supply to the ATmega boards female power barrel.
 Android Smartphone w Engine Driver v2.26.115
