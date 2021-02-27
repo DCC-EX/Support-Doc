@@ -51,19 +51,26 @@ https://www.locoduino.org/
 Affiliated; via Google Play Store
 Carlos 		February 2021                                      Bluetooth & WiFi 82666
 DCCpp CAB 2.5.x                                              Throttle App Project Developed & Supported
+WebSite:
+https://play.google.com/store/apps/details?id=com.infotronikblog.dcc_cab 
 
 DCC++ FireBox 
 Dave Cummings  May - Nov 2020                                Project Closed
 DCC++ EX
+Web:Site
 
-DCC-ESP Command Station
-Mike Dunstan 2016-Present	
+DCC-ESP32 Command Station
+Mike Dunstan 2016-Present                                    ESP32 Processor
 DCC-ESP                                                      Ongoing Development & Supported
+Website:
+https://atanisoft.github.io/ESP32CommandStation/
 
 DCC++EX Prebuilt CS $ale 
-Chesterfield Model Making & Miniature Products
+CMME Chesterfield Model Making & Miniature Products
 Web site:
+
 https://chesterfield-models.co.uk/product/dccex/             $elling Complete Uno & Mega DCC++EX CS
+https://chesterfield-models.co.uk/wp-content/uploads/2020/12/DCCEX-Quick-Start.pdf    References Our DCC++EX Product & Site
 
 Third Party Projects 
 People  using, & or developing DCC++ functionality
