@@ -1,0 +1,82 @@
+DCC++ & DCC++EX Public Viewable Portals                                                             Last updated 2-27-21
+
+This file is for the DCC++ Associated Programs, Products, Websites & Support Boards that either use track or are a hybrid of the 
+DCC++ Base Station &  DCC++EX Command Station platforms.
+
+With so much history from the fall 2015 to today there is a lot of starts, stops, dead end, and misinformation floating around the internet.
+People have the impression this product is either stale, buggy, pie in the sky, fresh and new, up and coming, or the greatest thing since sliced bread 
+and everything in between.
+
+This is an attempt to list the product variants and sites so that we can clear up misinformation, link associated viable products and improve awareness,
+knowledge and reputability of the DCC++ family line.  "Highlighted ones Need Attention"
+They should be updated or Locked where possible so people can’t download older unsupported code.
+
+Also, Perhaps we might add a 'Third Party DCC++EX Accessories Products and Services' reference to Connections on our DCC-EX.com Site.
+  i.e, JMRI, Geoff Bunza, Locoduino, RocRail, Dave Bodner, Toms Trains & Things    etc.
+
+DCC++ Base Station  
+Gregg Bermann Aug 2015 – 2016   
+DCCpp 1.2. Original                                         Project some support 
+DCCpp 1.2.1+ Classic 2020 -Present                          Project Concluded,  Bug Fixes Only, No New Enhancements
+DCCpp EX 2.0 .1                                             Project Closed, No Support, https://github.com/DCC-EX/BaseStation-EX 
+                                                                                          This site visible and maybe downloadable
+Web Sites:,
+ https://sites.google.com/site/dccppsite/home		
+ https://github.com/DccPlusPlus					
+ https://dccwiki.com/DCC_Plus_Plus                          Can we edit to reference EX release?
+ https://www.youtube.com/channel/UCJmvQx-fe0OMAIH-_g-_rZw   Over 4,500 subscribers to date.
+ https://dccwiki.com/DCC_Projects					
+ https://www.jmri.org/help/en/html/hardware/dccpp/index.shtml “Need Updating to refer to DCC++Classic & DCC++EX”
+ https://www.trainboard.com/highball/index.php?threads/introducing-dcc-a-complete-open-source-dcc-station-and-interface.84800/
+                                                              “Needs Clearer Notification of DCC++ to EX Support”
+DCC++EX Command Station 
+DCC++EX Team 2020 - Present
+DCC-EX 3.0.x                                                  Project On Going & Supported
+Web Sites:
+https://dcc-ex.com/ 
+https://github.com/DCC-EX/CommandStation-EX/releases          Current EX 3.0 Release Supported
+https://github.com/DCC-EX/CommandStation-EX                   Points to EX ver. 2.0.3 download un-Supported 
+https://www.jmri.org/help/en/html/hardware/dccpp/index.shtml  "Needs Updating to refer to DCC++Classic & DCC++EX”
+
+RocRail Command Station 
+Innovative Model Railroad Control                             PC based Controller Developed & Supported
+website:
+https://wiki.rocrail.net/doku.php?id=start  			
+https://wiki.rocrail.net/doku.php?id=dccpp:dccpp-en           Mentions DCC++EX
+
+DCC++ Locoduino Command Station
+Arduino based DCC++ Frence version                            On going Develompment & Support
+Web Site:
+https://www.locoduino.org/  
+Affiliated; via Google Play Store
+Carlos 		February 2021                                      Bluetooth & WiFi 82666
+DCCpp CAB 2.5.x                                              Throttle App Project Developed & Supported
+
+DCC++ FireBox 
+Dave Cummings  May - Nov 2020                                Project Closed
+DCC++ EX
+
+DCC-ESP Command Station
+Mike Dunstan 2016-Present	
+DCC-ESP                                                      Ongoing Development & Supported
+
+DCC++EX Prebuilt CS $ale 
+Chesterfield Model Making & Miniature Products
+Web site:
+https://chesterfield-models.co.uk/product/dccex/             $elling Complete Uno & Mega DCC++EX CS
+
+Third Party Projects 
+People  using, & or developing DCC++ functionality
+
+DCC++ Facebook                    https://www.facebook.com/groups/1406785379394934 
+Arduino for Model Railroading     https://www.facebook.com/groups/926390087391995
+Tom’s Train & Things              https://www.facebook.com/modelrailroadingbytom/ 
+                                  https://www.youtube.com/channel/UCE1TsLOIG2wxBZ7fe8512qw 
+Geoff Bunza SMA Railroad          https://model-railroad-hobbyist.com/blog/geoff-bunza 
+Greg’s Train Yard                 https://gregstrainyard.com/2017/05/20/programming-the-arduino-for-dcc/ 
+Dave Bodnar's Electroncs          http://trainelectronics.com/articles.htm
+DCC++ DCC++EX & DCC Electronics   http://www.dcyale.com/dccplusplus/index.html
+The World of Rail                 https://steamtraininfo.com/for-modelers/model-train-control/dccplusplus
+DCC Items & there Costs           https://modeltraintreasures.wordpress.com/dcc/dcc-the-items-necessary/  
+Arduino DCC & DCC++Projects       https://www.pinterest.com/grumpywun/arduino-dcc-dcc-%2B%2B/ 
+DCC++EX Bundle $$ Packages        https://chesterfield-models.co.uk/product/dccex/ 
