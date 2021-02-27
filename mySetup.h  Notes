@@ -1,0 +1,97 @@
+DCC++EX   mySetup.h
+We are creating a new DCC++EX 3.1 feature where users can create a file called mySetup.h 
+Inside it you can pre enter commands to customize your CS to start DCC++EX and to set it up at runtime.  
+
+Once you've tested different ranges and setup scenarios that meet your particular layout needs you create a mySetup.h file{tab} and sequentially type them in.
+Make sure you capitalize the "S" .  
+
+That new user Setup file doesn't exist in the .zip file, you have to create it once you open CommandStation-EX.ino in the Arduino Editor.
+Once Inside tab to the new mySetup.h file, you can enter in all sorts of commands.
+
+We have a growing number of settings and overrides that you can change in this way, such as starting with the power on, change ACK settings,
+add a custom motor board, etc. 
+We are in the process of document these features.  
+
+Examples for using mySetup.h user file:
+
+SETUP("1 MAIN")  // Start with power to the main track on. Just a "1" would turn both tracks on
+SETUP("D ACK MAX 9000")  // Set ACK detection to allow pulses up to 9000 microseconds long
+SETUP("1 JOIN")  // Start with 2 main power districts instead of a "main" and a "prog"
+Or Else
+// SETUP("1 DCC_DC")  // DCC on Main and DC on Secondary Downtown DC Legacy Rails - Future wish list
+
+DCC++EX  command reference List: https://dcc-ex.com/reference/software/command-reference.html
+
+One example would be to Improve the Max Duration Pulse Range for Reading a decoder;
+To test a longer Ack duration range potential fix for a decoder that won't read or acknowledge without having to going into sketch code, 
+you would first enter a command line via serial monitor <D ACK MAX 9000>.  
+
+For Testing, you can make change values through the IDE Serial Monitor before editing and compiling it into the EX code Sketch;
+Open the IDE Serial Monitor screen and enter the commands;
+<1>                  power on
+<D ACK ON>           display commands
+<D ACK MAX 9000>	  increases upper limit max to 9000
+
+Test the decoder enter the commands; 
+<R>       read and display DCC address
+<R 8 1 1>   read and display Mfg ID
+
+Repeat <D ACK MAX 9500> add 500 units and retest until the decoder reads & responds with actual CV data..
+Currently without the mySetup.h file feature you need to make a more permanent change through the Arduino IDE Editor by changing it in the 
+CommandStation-EX.ino sketch directly.
+
+For now, manually using a text editor or the Arduino IDE, open the DCCWaveform.h file in the CommandStation-EX sketch folder and open Tab: DCCWaveform.h.
+Scroll to Code Line & change find this line at the very bottom of the screen:
+
+: unsigned int maxAckPulseDuration = 8500;  // the MAX upper limit of pulse duration in micros.
+  Change it from 8500 to 9000. 
+
+Save the file and then compile & upload the sketch to your UNO or Mega again via a USB com port. 
+Ack must be at least 60mA for 6ms +/- 1ms (so 5000 - 7000 microseconds are allowed as a Standard default)
+Despite this, we currently check for pulses as short at 2000us and as long at 8500us, which is all ready a full 1500us out of standard specification on the upper end.
+Some decoder exceed even that extra fudge factor like QSI decoders which we've found pulse rates up to 11308ms.  
+So for older QSI you would set the maxAckPulseDuration = 11500.   
+
+The program track is limited to 250mA according to the NMRA standard, but we can also override that.
+We're looking at what we can do to accommodate those scenarios when older decoders refuse to cooperate and if we should up the MAX in the next version. 
+
+It is in our Master branch and will be in the future 3.1 release very soon.
+
+
+FlightRisk
+2-24-21
+
+You'll need version DCC++EX 3.0.3 or later. 
+ If you don't have it, you can get it by Either using:
+
+ DCC++ Automated Installer https://dcc-ex.com/download/commandstation.html
+   Choose the Latest DCC++EX 3.x release Not the Original DCC++ Classic 1.2.1+ 
+
+Or 
+Downloading DCC++EX Command Station file and install it from github
+
+The "nanoEvery2" branch is the latest and greatest and will soon be moved to master and then released.
+DCC++EX via github here: https://github.com/DCC-EX/CommandStation-EX/tree/nanoEvery2
+
+Or
+Direct download DCC++EX.zip file and install from the "master" branch.  
+here: https://github.com/DCC-EX/CommandStation-EX/archive/nanoEvery2.zip
+
+
+Other Notes for documentation:
+
+Our routines are much faster than DCC++ and we don't block code like it the original DCC++ did. So we wouldn't miss important events. 
+We even check for the response in between packets now instead of waiting for all the packets and repeats to get sent.  
+That is another reason why the original DCC++ Classic can miss ACKs Acknowledge signals.
+The DCC controller (PC & Pi) sends a string command and we process it.  For CVs, that all happens with EX and the loco. 
+JMRI (or another controller/cab) sends the command, the decoder obviously got the instruction if we see pulses back, 
+and then we report success or failure to JMRI.  But it has to poll the CV; "are you a one or a zero?  
+Ok, next, are you a one or a zero?  It goes through the entire byte, then verifies it. 
+DCC++ EX is also faster because once it gets an ACK, it stops sending repeat packets. 
+If the decoder/motor combination, or dirty track when it jumps a bit, or any number of things goes wrong, it can miss even with repeated commands.  
+While it is possible JMRI on a computer (PC, Linux, Pi) it could miss a response when parsing all the things it is seeing fed to it on the serial line,
+it is usually a missed acknowledgement because of timing, too little current, or the loco/decoder/track. 
+We will continue to add things we find from particular decoders.  
+We even thought of having specific changes that we provide in an example "mySetup.h" file to tweak settings for decoders that need more settle time
+or have longer ack pulses like some QSI & other decoders.
+
