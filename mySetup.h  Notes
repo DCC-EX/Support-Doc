@@ -14,11 +14,11 @@ We are in the process of document these features.
 
 Examples for using mySetup.h user file:
 
-SETUP("1 MAIN")  // Start with power to the main track on. Just a "1" would turn both tracks on
-SETUP("D ACK MAX 9000")  // Set ACK detection to allow pulses up to 9000 microseconds long
-SETUP("1 JOIN")  // Start with 2 main power districts instead of a "main" and a "prog"
+SETUP("1 MAIN");  // Start with power to the main track on. Just a "1" would turn both tracks on
+SETUP("D ACK MAX 9000");  // Set ACK detection to allow pulses up to 9000 microseconds long
+SETUP("1 JOIN");  // Start with 2 main power districts instead of a "main" and a "prog"
 Or Else
-// SETUP("1 DCC_DC")  // DCC on Main and DC on Secondary Downtown DC Legacy Rails - Future wish list
+// SETUP("1 DCC_DC");  // DCC on Main and DC on Secondary Downtown DC Legacy Rails - Future wish list
 
 DCC++EX  command reference List: https://dcc-ex.com/reference/software/command-reference.html
 
