@@ -10,13 +10,10 @@ Once Inside tab to the new mySetup.h file, you can enter in all sorts of command
 
 We have a growing number of settings and overrides that you can change in this way, such as starting with the power on, change ACK settings,
 add a custom motor board, etc. 
-We are in the process of document these features. iF 
-
-Note: When using WiFi on a Mega Serial port TxRx you must Identify it in MySetup.h file. The Mega+WiFi Standard configuration setup uses Serial3. 
+We are in the process of document these features.
 
 Examples for using mySetup.h user file:
 
-SETUP("Serial3.begin()");  // include Serial3.begin when using a Mega+WiFi. This Will NOT Compile on a UNO with only a Serial0 port and WiFi is not currrently not supported on the UNO.
 SETUP("1 MAIN");  // Start with power to the main track on. Just a "1" would turn both tracks on
 SETUP("D ACK MAX 9000");  // Set ACK detection to allow pulses up to 9000 microseconds long. Set this to a number larger than the Highest Pulse = "xxxxx us" you get from <R> command 
 SETUP("1 JOIN");  // Start with 2 main power districts instead of a "main" and a "prog"
