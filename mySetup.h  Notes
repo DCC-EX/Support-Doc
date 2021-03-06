@@ -1,65 +1,67 @@
 DCC++EX   mySetup.h
-We are creating a new DCC++EX 3.1 feature where users can create a file called mySetup.h 
-Inside it you can pre enter commands to customize your CS to start DCC++EX and to set it up at runtime.  
 
-Once you've tested different ranges and setup scenarios that meet your particular layout needs you create a mySetup.h file{tab} and sequentially type them in.
+This new DCC++EX 3.1 file feature allows users to manually create a file called mySetup.h 
+Its purpose is to allow users to add additional custom code to be inserted in the setup() routine phase of the Command Station CS.
+Inside mySetup.h you can enter standard preferred command values to customize your CS to start DCC++EX and set it up at runtime.  
+This mySetup.h file is an optional, user specific flie that doesn't exist in the standard CommandStation-EX.zip file, 
+you have to create it once you open CommandStation-EX.ino sketch in the Arduino Editor.
+Future DCC++EX releases will not overwrite it or replaced it when you download a new version of the CommandStation-EX code. 
+It stays as is and unique to your layout until you specifically choose to make future changes to it through a Arduino IDE or other editor.
+ 
+Once you've tested different ranges and setup scenarios that meet your particular layout needs you create a mySetup.h file{tab} and sequentially type command values in.
 Make sure you capitalize the "S" .  
 
-That new user Setup file doesn't exist in the .zip file, you have to create it once you open CommandStation-EX.ino in the Arduino Editor.
-Once Inside tab to the new mySetup.h file, you can enter in all sorts of commands.
+Initial startup loads the Wifi/Ethernet setup and the DCCWaveform first then your custom  mySetup.h file is started.
+The file must contain valid C/C++ code for the context in which it intended. (don't worry, just follow and edit the examples).
 
-We have a growing number of settings and overrides that you can change in this way, such as starting with the power on, change ACK settings,
-add a custom motor board, etc. 
+Once you've created the mySetup.h file and you are ready to cusomize your CS, open the CommandStation-EX.ino sketch, tab to the new mySetup.h file, and you can enter in all sorts of commands.
+We have a growing number of settings and overrides that you can enter and change in this way, such as starting with the power on, change ACK settings,
+add a custom motor board, entering messages to display on LCD's, etc.   Y0u can preenter SETUP(commands) and use // in front of SETUP line so that it is not used this time during startup.
 We are in the process of document these features.
 
 Examples for using mySetup.h user file:
 
 SETUP("1 MAIN");  // Start with power to the main track on. Just a "1" would turn both tracks on
-SETUP("D ACK MAX 9000");  // Set ACK detection to allow pulses up to 9000 microseconds long. Set this to a number larger than the Highest Pulse = "xxxxx us" you get from <R> command 
+SETUP("D ACK MAX 9000");  // Set maxAckPulseDuration ACK detection to allow pulses up to 9000 microseconds long. Set this to a number larger than the Highest Pulse = "xxxxx us" you get from <R> command 
+SETUP("D ACK LIMIT 33"); // Override Std default of ackLimitmA = 60 by tuning it with 70, 65, 55, 50, 45, 40, etc. to try and improve CV reads on the Programming track
 SETUP("1 JOIN");  // Start with 2 main power districts instead of a "main" and a "prog"
-Or Else
-// SETUP("1 DCC_DC");  // DCC on Main and DC on Secondary Downtown DC Legacy Rails - Future wish list
+// Else
+// SETUP("1 DCC_DC");  // DCC on Main and DC on Secondary Downtown DC Legacy Rails - Future wish list.
 
-DCC++EX  see command reference List: https://dcc-ex.com/reference/software/command-reference.html
+DCC++EX command reference List: https://dcc-ex.com/reference/software/command-reference.html
+All Command Station commands are valid but some make little sense to use at this stage (E.g prog-track reads/writes) which are best used when needed after initial startup.
 
-One example would be to Improve the Max Duration Pulse Range for Reading a decoder;
-To test a longer Ack duration range potential fix for a decoder that won't read or acknowledge without having to going into sketch code, 
-you would first enter a command line via serial monitor <D ACK MAX 9000>.  
+One example of SETUP<"command"> would be to Improve the Max Duration Pulse Range for Reading a decoder;
 
-For Testing, you can make change values through the IDE Serial Monitor before editing and compiling it into the EX code Sketch;
+To test a longer Ack duration range potential fix for a decoder that won't read or acknowledge Without having to going into sketch code, 
+you would first test it by enterng a command line <D ACK MAX 9000> via a Serial Monitor.  
+
 Open the IDE Serial Monitor screen and enter the commands;
-<1>                  power on
-<D ACK ON>           display commands
+<1>                 power on
+<D ACK ON>          display commands
 <D ACK MAX 9000>	  increases upper limit max to 9000
 
 Test the decoder enter the commands; 
-<R>       read and display DCC address
+<R>         read and display DCC address
 <R 8 1 1>   read and display Mfg ID
 
 Repeat <D ACK MAX 9500> add 500 units and retest until the  decoder reads & responds with actual CV data.. and it reads the highest pulse = "xxxxx us" result.
-Currently without the mySetup.h file feature you need to make a more permanent change through the Arduino IDE Editor by changing it in the 
-CommandStation-EX.ino sketch directly.
 
-For now, manually using a text editor or the Arduino IDE, open the DCCWaveform.h file in the CommandStation-EX sketch folder and open Tab: DCCWaveform.h.
-Scroll to Code Line & change find this line at the very bottom of the screen:
-
-: unsigned int maxAckPulseDuration = 8500;  // the MAX upper limit of pulse duration in micros.
-  Change it from 8500 to 9000. 
-
-Save the file and then compile & upload the sketch to your UNO or Mega again via a USB com port. 
-Ack must be at least 60mA for 6ms +/- 1ms (so 5000 - 7000 microseconds are allowed as a Standard default)
+Note; Ack must be at least 60mA for 6ms +/- 1ms (so 5000 - 7000 microseconds are allowed as a Standard default)
 Despite this, we currently check for pulses as short at 2000us and as long at 8500us, which is all ready a full 1500us out of standard specification on the upper end.
 Some decoder exceed even that extra fudge factor like QSI decoders which we've found pulse rates up to 11308ms.  
 So for older QSI you would set the maxAckPulseDuration = 11500.   
 
 The program track is limited to 250mA according to the NMRA standard, but we can also override that.
-We're looking at what we can do to accommodate those scenarios when older decoders refuse to cooperate and if we should up the MAX in the next version. 
+We're looking at what we can do to accommodate those scenarios when older decoders refuse to cooperate and if we should up the MAX in the next version.
 
-It is in our Master branch and will be in the future 3.1 release very soon.
+*************************************************************************************************************************************************************
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 FlightRisk
 2-24-21
+Other Raw Drafts of Trainboard notes:
 
 You'll need version DCC++EX 3.0.3 or later. 
  If you don't have it, you can get it by Either using:
@@ -94,4 +96,4 @@ it is usually a missed acknowledgement because of timing, too little current, or
 We will continue to add things we find from particular decoders.  
 We even thought of having specific changes that we provide in an example "mySetup.h" file to tweak settings for decoders that need more settle time
 or have longer ack pulses like some QSI & other decoders.
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
