@@ -1,4 +1,4 @@
-DCC++EX Mega2560 + ESP8266 WiFI On-Boars.  'A Operational Standalone WiFI DCC Command Station'
+DCC++EX Mega2560 + ESP8266 WiFI On-Board.  'A Operational Standalone WiFI DCC Command Station'
 
 A Tested and Proven Configuration:
  DCC++EX >= 3.0.3
