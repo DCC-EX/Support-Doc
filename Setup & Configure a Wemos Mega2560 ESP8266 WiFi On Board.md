@@ -49,7 +49,7 @@ Download and install DCC++EX from either the Automated exInstaller or the Latest
 https://dcc-ex.com/download/index.html
 
 Once you have DCC-EX installed on the Mega you need to copy, rename  and edit as follows
-In the DCC++EX Command Station Folder make a Copy of the sampleconfig.h file and rename it to config.h
+In the DCC++EX Command Station Folder make a Copy of the config.example.h file and rename it to config.h
 Open the CommandStation-EX.ino in the Arduino IDE Interactive Development Editor then;
 Edited & change the tab config.h data to your local or home Router's SSID & Password.
 #define WIFI_SSID "......" to your "local SSID"
