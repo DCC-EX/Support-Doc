@@ -14,7 +14,7 @@ Make sure you capitalize the "S" .
 Initial startup loads the Wifi/Ethernet setup and the DCCWaveform first then your custom  mySetup.h file is started.
 The file must contain valid C/C++ code for the context in which it intended. (don't worry, just follow and edit the examples).
 
-Once you've created the mySetup.h file and you are ready to cusomize your CS, open the CommandStation-EX.ino sketch, tab to the new mySetup.h file, enter in all sorts of commands.
+Once you've created the mySetup.h file and you are ready to cusomize your CS, open the CommandStation-EX.ino sketch, tab to the new mySetup.h file.
 We have a growing number of settings and overrides that you can enter and change in this way, such as starting with the power on, change ACK settings,
 add a custom motor board, entering messages to display on LCD's, etc.   
 You can preenter SETUP(commands) and comment out // in front of SETUP line so that it is not used time during the current startup.
@@ -22,12 +22,10 @@ We are in the process of futher documenting these features.
 
 Examples for using mySetup.h user file:
 
-SETUP("1 MAIN");  // Start with power to the main track on. Entering just a "1" would turn both Main & Prog tracks on
-SETUP("D ACK MAX 9000");  // Set maxAckPulseDuration ACK detection to allow pulses up to 9000 microseconds long. Set this to a number larger than the Highest Pulse = "xxxxx us" you get from <R> command 
-SETUP("D ACK LIMIT 33"); // Override Std default of ackLimitmA = 60 by tuning it with 70, 65, 55, 50, 45, 40, etc. to try and improve CV reads on the Programming track
-SETUP("1 JOIN");  // Start with 2 main power districts instead of a "Main" and a "Prog" , you have "Main" and a "Main"  East bound and West bound.
-// Else
-// SETUP("1 DCC_DC");  // DCC on the Main line tracks and a DC track on Secondary Downtown DC Legacy Rail - Future wish list.
+SETUP("<1 MAIN>");  // Start with power to the main track on. Entering just a "1" would turn both Main & Prog tracks on
+SETUP("<D ACK MAX 9000>");  // Set maxAckPulseDuration ACK detection to allow pulses up to 9000 microseconds long. Set this to a number larger than the Highest Pulse = "xxxxx us" you get from <R> command 
+SETUP("<D ACK LIMIT 33>"); // Override Std default of ackLimitmA = 60 by tuning it with 70, 65, 55, 50, etc. to try and improve CV reads on the Programming track
+SETUP("<1 JOIN>");  // Start with 2 main power districts instead of a "Main" and a "Prog" , you have "Main" and a "Main"  East bound and West bound.
 
 DCC++EX command reference List: https://dcc-ex.com/reference/software/command-reference.html
 All Command Station commands are valid but some make little sense to use at during startup (E.g prog-track reads/writes) theae are best used when needed after initial startup.
