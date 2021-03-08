@@ -24,7 +24,7 @@ Examples for using mySetup.h user file:
 
 SETUP("<1 MAIN>");  // Start with power to the main track on. Entering just a "1" would turn both Main & Prog tracks on
 SETUP("<D ACK MAX 9000>");  // Set maxAckPulseDuration ACK detection to allow pulses up to 9000 microseconds long. Set this to a number larger than the Highest Pulse = "xxxxx us" you get from <R> command 
-SETUP("<D ACK LIMIT 33>"); // Override Std default of ackLimitmA = 60 by tuning it with 70, 65, 55, 50, etc. to try and improve CV reads on the Programming track
+SETUP("<D ACK LIMIT 50>"); // Override Std default of ackLimitmA = 60 by tuning it with 70, 65, 55, 50,45, 40 etc. to try and improve CV reads on the Programming track
 SETUP("<1 JOIN>");  // Start with 2 main power districts instead of a "Main" and a "Prog" , you have "Main" and a "Main"  East bound and West bound.
 
 DCC++EX command reference List: https://dcc-ex.com/reference/software/command-reference.html
@@ -50,6 +50,7 @@ Note; Ack must be at least 60mA for 6ms +/- 1ms (so 5000 - 7000 microseconds are
 Despite this, we currently check for pulses as short at 2000us and as long at 8500us, which is all ready a full 1500us out of standard specification on the upper end.
 Some decoder exceed even that extra fudge factor like QSI decoders which we've found pulse rates up to 11308ms.  
 So for older QSI you would set the maxAckPulseDuration = 11500.   
+In addition by lowering the ackLimitmA to 45 we where able to further improve reading the QSI decoder.
 
 The program track is limited to 250mA according to the NMRA standard, but we can also override that.
 
@@ -59,26 +60,6 @@ We're looking at what we can do to accommodate those scenarios when older decode
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-FlightRisk
-2-24-21
-Other Raw Drafts of Trainboard notes:
-
-You'll need version DCC++EX 3.0.3 or later. 
- If you don't have it, you can get it by Either using:
-
- DCC++ Automated Installer https://dcc-ex.com/download/commandstation.html
-   Choose the Latest DCC++EX 3.x release Not the Original DCC++ Classic 1.2.1+ 
-
-Or 
-Downloading DCC++EX Command Station file and install it from github
-
-The "nanoEvery2" branch is the latest and greatest and will soon be moved to master and then released.
-DCC++EX via github here: https://github.com/DCC-EX/CommandStation-EX/tree/nanoEvery2
-
-Or
-Direct download DCC++EX.zip file and install from the "master" branch.  
-here: https://github.com/DCC-EX/CommandStation-EX/archive/nanoEvery2.zip
-
 
 Other Notes for documentation:
 
