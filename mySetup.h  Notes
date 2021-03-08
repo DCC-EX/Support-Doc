@@ -50,9 +50,7 @@ Note; Ack must be at least 60mA for 6ms +/- 1ms (so 5000 - 7000 microseconds are
 Despite this, we currently check for pulses as short at 2000uS and as long at 8500uS, which is all ready a full 1500uS out of standard specification on the upper end.
 Some decoder exceed even that extra fudge factor like QSI decoders which we've found have pulse rate returns up to pulse=11712uS.  
 So for older QSI you would set the maxAckPulseDuration = 12000.   <D ACK MAX 12000>
-In addition by lowering the ackLimitmA to 45 we where able to further improve reading the QSI decoder. <D ACK LIMIT 45>
-
-The program track is limited to 250mA according to the NMRA standard, but we can also override that.
+In addition by raising (less sensitive) or lowering (more sensitive) the ackLimitmA from the Standard 60, you may be able to further improve readings from QSI decoders. <D ACK LIMIT 70>
 
 We're looking at what we can do to accommodate those scenarios when older decoders refuse to cooperate and if we should up the MAX in the next version.
 
