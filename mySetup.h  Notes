@@ -9,7 +9,7 @@ Future DCC++EX releases will not overwrite it or replaced it when you download a
 It stays as is and unique to your layout until you specifically choose to make future changes to it through a Arduino IDE or other editor.
  
 Once you've tested different ranges and setup scenarios that meet your particular layout needs you create a mySetup.h file{tab} and sequentially type command values in.
-Make sure you capitalize the "S" .  
+Make sure you capitalize the "S" in mySetup.h .  
 
 Initial startup loads the Wifi/Ethernet setup and the DCCWaveform first then your custom  mySetup.h file is started.
 The file must contain valid C/C++ code for the context in which it intended. (don't worry, just follow and edit the examples).
@@ -24,7 +24,7 @@ Examples for using mySetup.h user file:
 
 SETUP("<1 MAIN>");  // Start with power to the main track on. Entering just a "1" would turn both Main & Prog tracks on
 SETUP("<D ACK MAX 9000>");  // Set maxAckPulseDuration ACK detection to allow pulses up to 9000 microseconds long. Set this to a number larger than the Highest Pulse = "xxxxx us" you get from <R> command 
-SETUP("<D ACK LIMIT 50>"); // Override Std default of ackLimitmA = 60 by tuning it with 70, 65, 55, 50,45, 40 etc. to try and improve CV reads on the Programming track
+SETUP("<D ACK LIMIT 50>"); // Override Std default of ackLimitmA = 60 by tuning it with 70, 65, 55, 50, 45, 40 etc. to try and improve CV reads on the Programming track
 SETUP("<1 JOIN>");  // Start with 2 main power districts instead of a "Main" and a "Prog" , you have "Main" and a "Main"  East bound and West bound.
 
 DCC++EX command reference List: https://dcc-ex.com/reference/software/command-reference.html
@@ -47,10 +47,10 @@ Test the decoder enter the commands;
 Repeat <D ACK MAX 9500> add 500 units and retest until the  decoder reads & responds with actual CV data.. and it reads the highest pulse = "xxxxx us" result.
 
 Note; Ack must be at least 60mA for 6ms +/- 1ms (so 5000 - 7000 microseconds are allowed as a Standard default)
-Despite this, we currently check for pulses as short at 2000us and as long at 8500us, which is all ready a full 1500us out of standard specification on the upper end.
-Some decoder exceed even that extra fudge factor like QSI decoders which we've found pulse rates up to 11308ms.  
-So for older QSI you would set the maxAckPulseDuration = 11500.   
-In addition by lowering the ackLimitmA to 45 we where able to further improve reading the QSI decoder.
+Despite this, we currently check for pulses as short at 2000uS and as long at 8500uS, which is all ready a full 1500uS out of standard specification on the upper end.
+Some decoder exceed even that extra fudge factor like QSI decoders which we've found have pulse rate returns up to pulse=11712uS.  
+So for older QSI you would set the maxAckPulseDuration = 12000.   <D ACK MAX 12000>
+In addition by lowering the ackLimitmA to 45 we where able to further improve reading the QSI decoder. <D ACK LIMIT 45>
 
 The program track is limited to 250mA according to the NMRA standard, but we can also override that.
 
