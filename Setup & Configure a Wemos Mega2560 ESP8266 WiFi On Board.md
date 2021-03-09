@@ -89,7 +89,7 @@ Power up the Arduino ATMega2560 + ESP8266 WiFi board by Either a USB cable, Or
 
 
 **4)** Set your Smartphone WiFi to the same local SSID & PASSwd you entered into the DCC++EX config.h file
-- Start your Smart Phone (Andriod) Engine Driver App Or Apple iOs WiTHrottlle App and enter the IP address XXX.XXX.X.XXX assigned in the Arduino Serial Monitor above and Port 2560.
+- Start your Smart Phone (Andriod) Engine Driver App Or (Apple iOs) WiTHrottlle App and enter the IP address XXX.XXX.X.XXX assigned in the Arduino Serial Monitor above and Port 2560.
 
 
 If the Engine driver fails to connect the first time with the Command Station just press the Mega's red Reset button and try the IP/Port connection again.
