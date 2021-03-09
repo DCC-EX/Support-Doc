@@ -14,7 +14,7 @@ A Tested and Proven Configuration:
 Few Multiple Easy Steps 
  1) Download the ESP Files
  2) Flash the ESP8266 chip
- 3) Edit & Load the DCC++EX 3.0 to the Mega2560 chip
+ 3) Edit & Load the DCC++EX 3.0.5+ to the Mega2560 chip
  4) Set up Engine Driver Throttle
 
 Steps;
