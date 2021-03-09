@@ -1,9 +1,9 @@
 DCC++EX Mega2560 + ESP8266 WiFI On-Board
 ========================================
 'A Operational Standalone WiFI DCC Command Station'
+---------------------------------------------------
 
-A Tested and Proven Configuration:
-----------------------------------
+* A Tested and Proven Configuration:*
 - DCC++EX  >= 3.0.5
 - Wemos ATMega2560 + ESP8266 WiFI - Combo Board
 - Deek Robot L298P Standard Motor Shield 
@@ -21,6 +21,7 @@ Steps;
 ------
 1) Downloaded the Flash Download Tool 3.8.5 nodencu-flasher & download the ESP8266_NONOS_AT_Bin_v1.7.4 Bin files found here;
 - https://wakwak2popo.wordpress.com/2021/01/05/flashing-at-command-set-on-combined-mega-8266-board/
+
 
 2) To Flash with ESP8266_NONOS_AT_Bin_v1.7.4 set the ESP section of the board with the USB unplugged. (no power)
 - (set dip switches 1,2,3,4,8 off .. 5,6,7 on)
@@ -43,6 +44,7 @@ First press the Erase button and let the ESP erase the chip memory
 
 After flashing, the ESP8266 Log will show it uploaded them all successfully and it closes the port.
 - You disconnect the USB cable.
+
 
 3) Set up the Arduino ATmega2560 side of the board with DCC++EX version 3.0.5+
 - (dip switches 1,2,5,6,7,8 off .. 3,4 on)
@@ -84,13 +86,14 @@ Power up the Arduino ATMega2560 + ESP8266 WiFi board by Either a USB cable.
 .. note:: {For Standalone Operations (no USB) you can use a 7-12vdc power supply in the Arduino 2.1mm female barrel.}
 
 - When powered on through a USB cable, check the Arduino IDE Tools > Serial Monitor.
-- It should show the ATMega2560 & ESP8266 WiFI communicating and assigning a
-- xxx.xxx.x.xxx IP Address and Port 2560 to the new DCC++EX Command Station.
+- It should show the ATMega2560 & ESP8266 WiFI communicating and assigning a xxx.xxx.x.xxx IP Address and Port 2560 to the new DCC++EX Command Station.
 - ++ Wifi Setup CONNECTED ++
+
 
 - 4) Set your Smartphone WiFi to the same local SSID you entered into the DCC++EX config.h file
 - Start your Smart Phone (Andriod) Engine Driver App Or Apple iOs WiTHrottlle App and enter the 
 - IP address XXX.XXX.X.XXX assigned in the Arduino Serial Monitor above and Port 2560.
+
 
 If the Engine driver fails to connect the first time with the Command Station just press the Mega's red Reset button and try the IP/Port connection again.
 
