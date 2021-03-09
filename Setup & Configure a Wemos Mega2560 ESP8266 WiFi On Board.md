@@ -3,8 +3,8 @@ DCC++EX Mega2560 + ESP8266 WiFI On-Board
 'A Operational Standalone WiFI DCC Command Station'
 ---------------------------------------------------
 
-* A Tested and Proven Configuration:*
-- DCC++EX  >= 3.0.5
+A Tested and Proven Configuration:
+- DCC++EX  3.0.5+
 - Wemos ATMega2560 + ESP8266 WiFI - Combo Board
 - Deek Robot L298P Standard Motor Shield 
 - 16Vdc Laptop power supply to the Motor Shield with 14.5Vdc to the tracks for HO Gauge
@@ -90,9 +90,8 @@ Power up the Arduino ATMega2560 + ESP8266 WiFi board by Either a USB cable.
 - ++ Wifi Setup CONNECTED ++
 
 
-- 4) Set your Smartphone WiFi to the same local SSID you entered into the DCC++EX config.h file
-- Start your Smart Phone (Andriod) Engine Driver App Or Apple iOs WiTHrottlle App and enter the 
-- IP address XXX.XXX.X.XXX assigned in the Arduino Serial Monitor above and Port 2560.
+4) Set your Smartphone WiFi to the same local SSID & PASSwd you entered into the DCC++EX config.h file
+- Start your Smart Phone (Andriod) Engine Driver App Or Apple iOs WiTHrottlle App and enter the IP address XXX.XXX.X.XXX assigned in the Arduino Serial Monitor above and Port 2560.
 
 
 If the Engine driver fails to connect the first time with the Command Station just press the Mega's red Reset button and try the IP/Port connection again.
