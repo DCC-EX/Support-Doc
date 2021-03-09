@@ -8,7 +8,7 @@ A Tested and Proven Configuration:
 - Wemos ATMega2560 + ESP8266 WiFI - Combo Board
 - Deek Robot L298P Motor Shield, a-16Vdc Laptop power supply to the Motor Shield with 14.5Vdc to the tracks for HO Gauge
 - 9Vdc power supply to the ATmega boards female 2.1mm power barrel
-- Android Smartphone w Engine Driver v2.26.115 >
+- Android Smartphone w Engine Driver v2.28.123 >
 
 Few Multiple Easy Steps 
  1) Download the ESP Files
