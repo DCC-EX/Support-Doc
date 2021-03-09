@@ -80,8 +80,8 @@ After the Arduino IDE uploads DCC-EX 3.0.5 sketch
 - Reset dip switches 1,2,3,4 on .. 5,6,7,8 off
 - (Leave the TX/RX slide Pin on RxD3 TxD3)
 
-Power up the Arduino ATMega2560 + ESP8266 WiFi board by Either a USB cable.
-**.. Note::** {For Standalone Operations (no USB) you can use a 7-12vdc power supply in the Arduino 2.1mm female barrel.}
+Power up the Arduino ATMega2560 + ESP8266 WiFi board by Either a USB cable, Or  
+  **Note:** {For Standalone Operations (no USB) you can use a 7-12vdc power supply in the Arduino 2.1mm female barrel.}
 
 - When powered on through a USB cable, check the Arduino IDE Tools > Serial Monitor.
 - It should show the ATMega2560 & ESP8266 WiFI communicating and assigning a xxx.xxx.x.xxx IP Address and Port 2560 to the new DCC++EX Command Station.
