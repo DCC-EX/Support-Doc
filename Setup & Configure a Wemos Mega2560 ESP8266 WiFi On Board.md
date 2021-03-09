@@ -73,7 +73,7 @@ It should show the ATMega2560 & ESP8266 WiFI communicating and assigning a
 xxx.xxx.x.xxx IP Address and Port 2560 to the new DCC++EX Command Station.
 
 4) Set your Smartphone WiFi to the same local SSID you entered into the DCC++EX config.h file
-Start your Smart Phone Engine Driver App and enter the XXX.XXX.X.XXX 
+Start your Smart Phone (Andriod) Engine Driver App and enter the XXX.XXX.X.XXX 
 IP address assigned in the Arduino Serial Monitor above and Port 2560.
 
 If the Engine driver fails to connect the first time with the Command Station just press the Mega's red Reset button and try the IP / Port connection again.
