@@ -59,7 +59,7 @@ Once you have DCC-EX installed on the Mega you need to Open the CommandStation-E
 Decide which Mode of WiFi Communication you wish to run, Either Access Point AP Mode, Or Station STA Mode.
 
 AP mode is Local Intranet, No Internet access.  Station Mode is your local WiFi Router With Internet access.
-- See WiFi Configuration for more details.
+**Note:**  See WiFi Configuration for more details.
 
 Setting up in Access Point AP Mode
 - No additional changes require, Leave SSID & Passwd alone
