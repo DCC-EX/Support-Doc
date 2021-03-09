@@ -1,11 +1,12 @@
-DCC++EX Mega2560 + ESP8266 WiFI On-Board.  'A Operational Standalone WiFI DCC Command Station'
+DCC++EX Mega2560 + ESP8266 WiFI On-Board. 
+'A Operational Standalone WiFI DCC Command Station'
 
 A Tested and Proven Configuration:
- DCC++EX >= 3.0.3
- Wemos ATMega2560 + ESP8266 WiFI - Combo Board
- Deek Robot L298P Motor Shield
-16Vdc Laptop power supply to the Motor Shield with 14.5Vdc to the tracks for HO Gauge
-9Vdc power supply to the ATmega boards female 2.1mm power barrel
+ DCC++EX >= 3.0.3, a
+ Wemos ATMega2560 + ESP8266 WiFI - Combo Board, a
+ Deek Robot L298P Motor Shield, a
+16Vdc Laptop power supply to the Motor Shield with 14.5Vdc to the tracks for HO Gauge, a
+9Vdc power supply to the ATmega boards female 2.1mm power barrel, and a
 Android Smartphone w Engine Driver v2.26.115 >
 
 Few Multiple Easy Steps;
