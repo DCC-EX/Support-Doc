@@ -5,7 +5,7 @@ DCC++EX Mega2560 + ESP8266 WiFI On-Board
 
 A Tested and Proven Configuration:
  - DCC++EX  3.0.5+
-- Wemos ATMega2560 + ESP8266 WiFI - Combo Board
+- Wemos ATMega2560 + ESP8266 WiFI - *Combo Board
 - Deek Robot L298P Standard Motor Shield 
 - 16Vdc Laptop power supply to the Motor Shield with 14.5Vdc to the tracks for HO Gauge
 - 9Vdc power supply to the ATmega boards female 2.1mm power barrel
@@ -100,3 +100,4 @@ You should have a direct Throttle connection to the DCC++EX 3.0.5+ Standalone Wi
 
  Enjoy your New DCC++EX MEGA + WiFI On-Board Command Station!
 
+* The RobotDyn Mega2560+ESP8266 WiFI combo-board May also be setup & configured this same way. We have not as yet tested it.
