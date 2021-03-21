@@ -34,6 +34,7 @@ Run the 3.8.5 Flasher Tool {relax give it time to completely open}
 
 Set up file location in the Tool version 3.8.5
 - Pay close attention setting up the Exact *.bin Files & locations 0x......
+- 
 ![image](https://user-images.githubusercontent.com/16595156/111919890-7f2cc280-8a62-11eb-8f08-64cf482e2df3.png)
 
 And then set the Exact radial dial & baud rate settings;
