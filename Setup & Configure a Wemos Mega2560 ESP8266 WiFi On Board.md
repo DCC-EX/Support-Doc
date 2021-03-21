@@ -34,10 +34,10 @@ Run the 3.8.5 Flasher Tool {relax give it time to completely open}
 
 Set up file location in the Tool version 3.8.5
 - Pay close attention setting up the Exact *.bin Files & locations 0x......
-- [​IMG]
+![image](https://user-images.githubusercontent.com/16595156/111919890-7f2cc280-8a62-11eb-8f08-64cf482e2df3.png)
 
 And then set the Exact radial dial & baud rate settings;
-- (26M, 40MHz, DIO, 16Mbit-C1, com: xx, 460800 baud).
+- (26M, 40MHz, DIO, 16Mbit-C1, com: xx, 115200 baud).
 
 First press the **Erase button** and let the ESP erase the chip memory.   
 Then press the **Start button** and the bin files will flash load onto the ESP-WiFi chip
