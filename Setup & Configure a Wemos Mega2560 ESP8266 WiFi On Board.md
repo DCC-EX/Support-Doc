@@ -4,17 +4,17 @@ DCC++EX Mega2560 + ESP8266 WiFI On-Board
 ---------------------------------------------------
 
 A Tested and Proven Configuration:
- - DCC++EX  3.0.5+
+ - DCC++EX  3.0.6+
 - Wemos ATMega2560 + ESP8266 WiFI - *Combo Board
 - Deek Robot L298P Standard Motor Shield 
 - 16Vdc Laptop power supply to the Motor Shield with 14.5Vdc to the tracks for HO Gauge
 - 9Vdc power supply to the ATmega boards female 2.1mm power barrel
-- Android Smartphone w Engine Driver v2.28.123>
+- Android Smartphone w Engine Driver v2.29.126+
 
 Few Multiple Easy Steps 
  1) Download the ESP Files
  2) Flash the ESP8266 chip
- 3) Edit & Load the DCC++EX 3.0.5+ to the Mega2560 chip
+ 3) Edit & Load the DCC++EX 3.0.6+ to the Mega2560 chip
  4) Set up Engine Driver Throttle
 
 Steps;
@@ -76,7 +76,7 @@ Compile and Re-upload DCC-EX to the
 - ATMega2560 board (com: xx, baud 115200),
 - Verify your com port and baud rate in Windows device manager
 
-After the Arduino IDE uploads DCC-EX 3.0.5 sketch
+After the Arduino IDE uploads DCC-EX 3.0.6 sketch
 - Disconnect USB cable
 - Reset dip switches 1,2,3,4 on .. 5,6,7,8 off
 - (Leave the TX/RX slide Pin on RxD3 TxD3)
