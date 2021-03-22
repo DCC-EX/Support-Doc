@@ -95,7 +95,7 @@ Power up the Arduino ATMega2560 + ESP8266 WiFi board by Either a USB cable, Or
 
 If the Engine driver fails to connect the first time with the Command Station just press the Mega's red Reset button and try the IP/Port connection again.
 
-You should have a direct Throttle connection to the DCC++EX 3.0.5+ Standalone WiFI Command Station Via your home router.
+You should have a direct Throttle connection to the DCC++EX 3.0.6+ Standalone WiFI Command Station Via your home router.
 
 **.. Note::** This is an Operations only config, the Engine Driver Power button only powers on the Main track, Not the Prog track. Function Keys are only local Default Function Settings, and are Not transferred from the JMRI Server Roster.
 
