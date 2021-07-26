@@ -1,0 +1,124 @@
+DCC++EX   mySetup.h
+
+Overview
+=========
+
+New to DCC++EX 3.1, this feature provides a method for sending commands and changing settings and preferences that will be run at every startup. 
+You can think of the mySetup.h file as an "autoexec" file or "macro" to make changes so that you don't have to manually enter commands every time 
+you start the Command Station for things you want to customize. mySetup.h is a simple text file, you don't have to be a programmer or get into the 
+command station code to use it.
+
+What Can I Do?
+===============
+
+* try different settings and when you like them, make them permanent
+* have the CS start with power on
+* send messages to the optional display
+* change CV read settings (ACK Detection)
+* create turnouts, outputs, and sensors
+* change network or wifi settings
+* send the <s> status output to your serial monitor
+* send many other <DCC++> commands
+
+Usage
+=======
+
+The mySetup.h file is optional, if you don't have one, the CS will just start as normal. But if the CS sees a mySetup.h file, it will process the 
+commands in order. For those familiar with the Arduino setup() and loop() functions, commands you enter in the mySetup.h file are inserted in the 
+setup() routine phase of the CommandStation-EX.ino file when it runs.
+
+mySetup.h is specific to the user, it is not part of the install and is not in any zip file. If you want one, you simply create it with a text 
+editor and place it in the same folder with all your other files, edit it, and then upload the software back into your CS.
+
+Future DCC++EX releases will not overwrite mySetup.h or replace it when you download a new version of the CommandStation-EX code. 
+It stays as is and unique to your layout until you specifically choose to make future changes to it through the Arduino IDE or other editor.
+ 
+NOTE: Make sure you capitalize the "S" in mySetup.h . 
+
+When the Command Station starts, it trys the Wifi/Ethernet setup, then starts the DCC Waveform, then processes your custom  mySetup.h file 
+commands. The file must contain valid C/C++ code for the context in which it intended. (don't worry, just follow and edit the examples).
+
+You enter SETUP() commands and can also comment them out without having to delete them by putting "//" in front of the SETUP line so that it is
+bypassed.
+
+Examples for using mySetup.h user file. For help on what each of these commands to, see the Command Reference (https://dcc-ex.com/reference/software/command-reference.html):
+
+SETUP("<1 MAIN>");  // Start with power to the main track on.
+SETUP("<D ACK MAX 9000>");  // Set maxAckPulseDuration ACK detection to allow pulses up to 9000 microseconds long.  
+SETUP("<D ACK LIMIT 50>"); // Override Std default of ackLimitmA of 60
+SETUP("<1 JOIN>");  // Start with 2 main power districts instead of a "Main" and a "Prog"
+SETUP("<D SPEED28>"); // Run in 28 step speed mode for older locos
+// SETUP("<1>"); // Commented command to turn power on to both tracks. Will not be executed.
+
+All Command Station commands are valid but some make little sense to use at during startup (E.g prog-track reads/writes) these are best 
+used when needed after initial startup.
+
+Detailed Example
+==================
+
+Fixing Decoder Programming Issues
+-----------------------------------
+
+Here is one way some users use mySetup.h. Some older decoders do not properly follow the NMRA specficiation. Therefore, sometimes it is 
+necessary to do a little experimentation to get it to read and verify CV settings. The issue is how the loco sends acknowledgements 
+or "ACKS" in reponse to commands. The symptom is an error like the dreaded JMRI "308" message. There are settings turn on diagnostics
+and test different ACK pulse durations and ACK current levels.
+
+To test a longer Ack duration range as a potential fix for a decoder that won't read or acknowledge without having to going into sketch code, 
+you would first test it by enterng a command line <D ACK MAX 9000> via a Serial Monitor.  
+
+Open the IDE Serial Monitor screen and enter the commands (without the comments to the right of each command);
+
+<1>                 power on
+<D ACK ON>          display ACK diagnostic info
+<D ACK MAX 9000>	   increases upper limit max to 9000
+
+Test the decoder by entering the commands;
+
+<R>         read and display DCC address
+
+then:
+
+<R 8 1 1>   read and display Mfg ID
+
+For details on how to read the output of the <R> commands with the <D ACK ON> diagnostics enabled, see ***TODO: Enter link here***
+The output will tell you what the CS sees back from the decoder and you will be able to see if something was not in the proper range,
+or you can use trial and error. So you could repeat <D ACK MAX 9500> add 500 units and retest until the  decoder reads & responds with 
+actual CV data and it reads the highest pulse = "xxxxx us" result.
+
+Note; Ack must be at least 60mA for 6ms +/- 1ms (so 5000 - 7000 microseconds are allowed as a Standard default)
+Despite this, we currently check for pulses as short at 2000uS and as long at 8500uS, which is already a full 1500uS out of standard 
+specification on the upper end. Some decoders exceed even that extra fudge factor like QSI decoders which we've found can have a pulse
+duration of up to 11712uS!
+
+So for older QSI decoders you would set the maxAckPulseDuration = 12000 with  <D ACK MAX 12000>
+
+In addition by, raising (less sensitive) or lowering (more sensitive) the ackLimitmA from the Standard 60, you may be able to further 
+improve readings from QSI decoders. You can try <D ACK LIMIT 70>. So if these changes allowed your decoder to be read, and it doesn't
+negatively effect any of your other decoders, you could put these two lines in your mySetup.h file and upload the CS sketch again:
+
+SETUP("<D ACK MAX 9000>"); // see a pulse as large at 9000us for an ACK
+SETUP("<D ACK LIMIT 70>"); // raise the current pulse detection to 70mA
+
+*******************************************************************************
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+Other Notes for documentation:
+
+Our routines are much faster than DCC++ and we don't block code like it the original DCC++ did. So we wouldn't miss important events. 
+We even check for the response in between packets now instead of waiting for all the packets and repeats to get sent.  
+That is another reason why the original DCC++ Classic can miss ACKs Acknowledge signals.
+The DCC controller (PC & Pi) sends a string command and we process it.  For CVs, that all happens with EX and the loco. 
+JMRI (or another controller/cab) sends the command, the decoder obviously got the instruction if we see pulses back, 
+and then we report success or failure to JMRI.  But it has to poll the CV; "are you a one or a zero?  
+Ok, next, are you a one or a zero?  It goes through the entire byte, then verifies it. 
+DCC++ EX is also faster because once it gets an ACK, it stops sending repeat packets. 
+If the decoder/motor combination, or dirty track when it jumps a bit, or any number of things goes wrong, it can miss even with repeated commands.  
+While it is possible JMRI on a computer (PC, Linux, Pi) it could miss a response when parsing all the things it is seeing fed to it on the serial line,
+it is usually a missed acknowledgement because of timing, too little current, or the loco/decoder/track. 
+We will continue to add things we find from particular decoders.  
+We even thought of having specific changes that we provide in an example "mySetup.h" file to tweak settings for decoders that need more settle time
+or have longer ack pulses like some QSI & other decoders.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
