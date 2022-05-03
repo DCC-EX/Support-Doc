@@ -1,4 +1,4 @@
-### More notes on DCC-EX branding and styles
+# More notes on DCC-EX branding and styles
 ******************************************
 
 NOTE: The branding guide (Branding_Guide.pdf) is pinned to the top of the discord #documentation channel
