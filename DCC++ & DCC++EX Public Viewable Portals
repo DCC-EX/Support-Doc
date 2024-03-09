@@ -65,7 +65,7 @@ DCC-ESP                                                      Ongoing Development
 Website:
 https://atanisoft.github.io/ESP32CommandStation/
 
-DCC++EX Prebuilt CS $ale 
+DCC-EX Prebuilt CS $ale 
 CMME Chesterfield Model Making & Miniature Electronics
 Web site:
 https://chesterfield-models.co.uk/product/dccex/             $elling Complete Uno & Mega DCC++EX CS
@@ -74,7 +74,7 @@ https://chesterfield-models.co.uk/wp-content/uploads/2020/12/DCCEX-Quick-Start.p
 Third Party Projects 
 People  using, & or developing DCC++ functionality
 
-DCC++ Facebook                    https://www.facebook.com/groups/1406785379394934 
+DCC++ & DCC-EX Facebook           https://www.facebook.com/groups/1406785379394934 
 Arduino for Model Railroading     https://www.facebook.com/groups/926390087391995
 Tom’s Train & Things              https://www.facebook.com/modelrailroadingbytom/ 
                                   https://www.youtube.com/channel/UCE1TsLOIG2wxBZ7fe8512qw 
@@ -91,24 +91,24 @@ Infotronikblog Main               http://lamaquetade.infotronikblog.com/en/     
 DCCpp CAB Throttle App            http://lamaquetade.infotronikblog.com/en/dccpp-android-cab/
 
 
-Potential Sites we Might want DCC++EX added to:
+Potential Sites we Might want DCC-EX added to:
 DCC Command Stations Wiki         https://dccwiki.com/Command_Stations_List
 DCC Command Station Detail Wiki   https://dccwiki.com/Command_Stations_List_Detailed
 
 
-Potential Command Station List  Answers
+Potential Command Station List  Answers   updated 3-8-24
 
 Part Number 	                 Manufacturer 	   Common Name 	Max Current 	Max Simultaneous Trains  Max Consists  Functions  Computer Interface 	Ops Mode Programming 	Separate Programming Track 	Max Switches 
-DCC++ EX UNO Command Station  Arduino Uno328           DCC-EX       2                20                     ?         28-64         Yes USB           Yes                            Yes                    2,044
-DCC++ EX MEGA Command Station Arduino Mega2560         DCC-EX       2-5A             50                     ?         28            Yes USB           Yes                            Yes                    2,044
-DCC++ EX Mega+WiFI CS         Arduino Mega2560+ESP8266 DCC-EX       2-5A             50                     ?         28            Yes USB           Yes                            Yes                    2,044
-DCS10                         Digitrax                 Super Chief  5A               20                    120        29            No                True                           Yes                     999 
-NCE CS02                      NCE                      Power Pro    5A              256                    127        28            Yes               True 	                         Yes 	                  2,044 
+DCC-EX UNO Command Station  Arduino Uno328           DCC-EX       2                20                               28-32        Yes USB           Yes                            Yes               
+DCC-EX MEGA Command Station Arduino Mega2560         DCC-EX       2-5A             50                               32           Yes USB           Yes                            Yes                2,044
+DCC-EX Mega+WiFI CS         Arduino Mega2560+ESP8266 DCC-EX       2-5A             50                               32           Yes USB           Yes                            Yes                2,044
+DCS10                         Digitrax               Super Chief    5A             20                    120        29            No               True                           Yes                  999 
+NCE CS02                      NCE                    Power Pro      5A            256                    127        28           Yes               True 	                        Yes 	             2,044 
 
 
 Potential DCC COmmand Station Detail Answers
 
-Part Number 	Common Name 	Manufacturer 	      Max Simultaneous Trains 	Integrated Throttle 	Address Range 	Zero Stretching 	Max Consists 	Supported Consisting 	Speed Steps 	Functions 	Max Current 	Software Upgrade Possible 	Firmware Upgrade Possible 	Feedback 	Communications BUS 	Computer Interface  Auto Shuffle Train  Loco Number Readback  CV Readback   Ops Mode Programming 	Separate Programming Track 	Max Switches
-DCC++ EX UNO Command Station  Arduino Uno328               20             EngineDriver WiThrottle  	 2/4 	      No, DC add 1-10239         ?                 ?               128           	28            2-5A       Yes Open Source              Yes                                                        Serial USB                                 Yes                Yes         Yes          Yes              Yes
-DCC++ EX MEGA Command Station Arduino Mega2560             50             EngineDriver WiThrottle 	 2/4 	      No, DC add 1-10239         ?	               ?               128 	          28            2-5A       Yes Open Source              Yes                                                        Serial USB                                 Yes                Yes         Yes          Yes              Yes
-DCC++ EX Mega+WiFI CS         Arduino Mega2560+ESP8266     50             EngineDriver WiThrottle 	 2/4 	      No, DC add 1-10239         ?	               ?               128 	          28            2-5A       Yes Open Source              Yes                                                        Serial USB                                 Yes                Yes         Yes          Yes              Yes
+Part Number 	Common Name 	    Manufacturer 	      Max Simultaneous Trains 	Integrated Throttle 	Address Range 	Zero Stretching 	 Max Consists 	Supported Consisting 	Speed Steps 	Functions 	Max Current 	Software Upgrade Possible 	Firmware Upgrade Possible 	Feedback 	Communications BUS 	Computer Interface  Auto Shuffle Train  Loco Number Readback  CV Readback   Ops Mode Programming 	Separate Programming Track 	Max Switches
+DCC-EX UNO   EX-Command Station  Arduino Uno328             20              EngineDriver WiThrottle    2/5 	        No, DC add 1-10239                                       28 & 128       28            2-5A       Yes Open Source              Yes                                    I2C                 Serial USB                                 Yes                Yes         Yes          Yes              Yes
+DCC-EX MEGA  EX-Command Station Arduino Mega2560            50              EngineDriver WiThrottle 	 2/5 	        No, DC add 1-10239          	                           28 & 128 	    28            2-5A       Yes Open Source              Yes                                    I2C                 Serial USB                                 Yes                Yes         Yes          Yes              Yes
+DCC-EX Mega+WiFI EX-CS         Arduino Mega2560+ESP8266     50              EngineDriver WiThrottle 	 2/5 	        No, DC add 1-10239                                       28 & 128 	    28            2-5A       Yes Open Source              Yes                                    I2C                 Serial USB                                 Yes                Yes         Yes          Yes              Yes
