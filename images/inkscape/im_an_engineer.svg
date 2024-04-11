@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="533.76746mm"
+   height="168.21945mm"
+   viewBox="0 0 533.76746 168.21945"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="im_an_engineer.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.47748556"
+     inkscape:cx="1056.5765"
+     inkscape:cy="504.72731"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.874235,-17.064644)">
+    <text
+       xml:space="preserve"
+       style="font-size:76.2px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';fill:none;stroke:#00a3b9;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="313.15347"
+       y="70.919525"
+       id="text236"><tspan
+         sodipodi:role="line"
+         id="tspan234"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Audiowide;-inkscape-font-specification:Audiowide;text-align:center;text-anchor:middle;fill:#00a3b9;fill-opacity:1;stroke:#00a3b9;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+         x="313.15347"
+         y="70.919525">I'm a DCC-EX</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Audiowide;-inkscape-font-specification:Audiowide;text-align:center;text-anchor:middle;fill:#00a3b9;fill-opacity:1;stroke:#00a3b9;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+         x="313.15347"
+         y="167.334"
+         id="tspan238">Engineer</tspan></text>
+  </g>
+</svg>
